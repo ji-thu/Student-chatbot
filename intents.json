@@ -1,0 +1,4190 @@
+{
+"intents":[
+  {
+  "intent": "greeting",
+  "text": [
+    "Hi",
+    "Hello",
+    "Hey",
+    "Hey there",
+    "Hiya",
+    "Hola",
+    "Good day",
+    "Good morning",
+    "Good afternoon",
+    "Good evening",
+    "How are you?",
+    "How's it going?",
+    "How do you do?",
+    "What's up",
+    "Sup",
+    "Yo",
+    "Greetings",
+    "Is anyone there?",
+    "Knock knock",
+    "Anyone here?",
+    "Heyy",
+    "Whatsup",
+    "What's new?",
+    "Howdy",
+    "Long time no see",
+    "Nice to see you",
+    "hi bot",
+    "hey bot",
+    "hello there",
+    "hiya friend",
+    "yo yo",
+    "what's happening?",
+    "wassup",
+    "hey there, buddy",
+    "hey assistant",
+    "👋",
+    "🙋",
+    "??",
+    "??? ??? ??",
+    "🙂 hi"
+  ],
+  "responses": [
+    "Hello!",
+    "Hi there! How can I help?",
+    "Good to see you again!",
+    "Hey! How's it going?",
+    "Hi, what can I do for you?",
+    "Greetings!",
+    "Hey there 👋",
+    "Nice to see you!",
+    "Hello, friend!",
+    "Hi, hope you're doing well!",
+    "Hey, how are you today?",
+    "What's up?",
+    "Howdy! 🤠",
+    "Heyyy, glad you're here!",
+    "Hi, ready to chat?",
+    "Good morning ☀️",
+    "Good afternoon 🌼",
+    "Good evening 🌙",
+    "Hello there, how's your day?",
+    "Hey, what brings you here today?"
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "GreetingUserRequest",
+        "clear": false
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+  "intent": "goodbye",
+  "text": [
+    "cya",
+    "see you",
+    "bye bye",
+    "See you later",
+    "Goodbye",
+    "I am Leaving",
+    "Bye",
+    "Have a Good day",
+    "talk to you later",
+    "ttyl",
+    "i got to go",
+    "gtg",
+    "by",
+    "b",
+    "c u",
+    "bb",
+    "later",
+    "catch you later",
+    "see ya soon",
+    "I'm heading out",
+    "gotta bounce",
+    "take care",
+    "peace out",
+    "I'll talk to you tomorrow",
+    "until next time",
+    "logging off now",
+    "see you around",
+    "I have to leave",
+    "bye for now",
+    "talk later",
+    "I'm done for now",
+    "catch you later alligator",
+    "see you tomorrow",
+    "good night",
+    "good evening",
+    "have a nice day",
+    "okay bye",
+    "see you shortly"
+  ],
+  "responses": [
+    "Sad to see you go (🙈)",
+    "Talk to you later",
+    "Goodbye!",
+    "Come back soon",
+    "Take care!",
+    "See you around!",
+    "Catch you later!",
+    "Have a wonderful day ahead!",
+    "Bye for now!",
+    "I'll be here when you come back",
+    "See you next time",
+    "Have a good one!",
+    "Stay safe, bye!",
+    "Looking forward to chatting again",
+    "Bye bye!",
+    "Hope to see you soon!",
+    "See ya later, alligator 🐊",
+    "Take it easy, goodbye!",
+    "Have a great evening!",
+    "Rest well, bye!"
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "LeavingUserRequest",
+        "clear": false
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+  "intent": "creator",
+  "text": [
+    "who built you",
+    "who made this bot",
+    "who worked on you",
+    "who developed this chatbot",
+    "who coded you",
+    "which students made you",
+    "who created this for the project",
+    "who's behind this bot",
+    "who worked on this chatbot",
+    "who is the team behind this",
+    "who made this for the mini project",
+    "this is made by whom",
+    "who is your programmer",
+    "which batch made you",
+    "which team created you",
+    "who are your creators from college",
+    "who developed this bot for the project",
+    "this bot is made by which students",
+    "you are part of which project",
+    "which group made this bot"
+  ],
+  "responses": [
+    "Mini Project"
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+  },
+  "context":  {
+        "in": "",
+        "out": "AskingCreator",
+        "clear": true
+  },
+  "entityType": "NA",
+  "entities": []
+ },
+  {
+  "intent": "name",
+  "text": [
+    "name",
+    "your name",
+    "do you have a name",
+    "what are you called",
+    "what is your name",
+    "what should I call you",
+    "whats your name?",
+    "who are you",
+    "who is this",
+    "what am I chatting to",
+    "who am I talking to",
+    "what are you",
+    "what's your bot name",
+    "tell me your name",
+    "may I know your name",
+    "what do students call you",
+    "what's your nickname",
+    "do you go by any name",
+    "how should I address you",
+    "who am I texting here",
+    "you got a name?",
+    "bot, what's your name?",
+    "hey, what do I call you?",
+    "what's your identity?",
+    "do you have a nickname?"
+  ],
+  "responses": [
+    "You can call me Mind Reader.",
+    "I'm Mind Reader.",
+    "I am a Chatbot.",
+    "I am your helper.",
+    "Students usually call me Mind Reader!",
+    "Mind Reader - that's what they named me!",
+    "I'm your virtual buddy from the mini project.",
+    "Just a helpful bot here to assist you 😊",
+    "Your smart study partner, Mind Reader!",
+    "I'm the bot your seniors made!"
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "AskingMyName",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+  "intent": "hours",
+  "text": [
+    "timing of college",
+    "what is college timing",
+    "working days",
+    "when are you guys open",
+    "what are your hours",
+    "hours of operation",
+    "when is the college open",
+    "college timing",
+    "what about college timing",
+    "is college open on saturday",
+    "tell something about college timing",
+    "what is the college hours",
+    "when should i come to college",
+    "when should i attend college",
+    "what is my college time",
+    "college timing",
+    "timing college",
+    "when do classes start",
+    "when do we have to be in college",
+    "what time do lectures begin",
+    "how long is college open",
+    "college open time?",
+    "college closing time?",
+    "what time should I reach college?",
+    "is there college on weekends?",
+    "what time does college start and end",
+    "do we have college on Saturday?",
+    "what's the daily schedule?",
+    "when do we get free?",
+    "college timing please",
+    "bro, when does college start?",
+    "tell me college schedule",
+    "is college open today?",
+    "what's the college timetable?",
+    "are lectures full day?",
+    "how many hours do we have college?",
+    "when can I go home from college?"
+  ],
+  "responses": [
+    "Monday to Friday, 8:45 AM to 4:45 PM, and on Saturdays from 9:00 AM to 4:00 PM,Sunday OFF!!"
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "CollegeTimings",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "number",
+    "text": [
+      "more info",
+      "contact info",
+      "how to contact college",
+      "college telephone number",
+      "college number",
+      "what is your contact no",
+      "contact number?",
+      "how to call you",
+      "college phone no?",
+      "how can I contact you",
+      "can I get your phone number",
+      "how can I call you",
+      "phone number",
+      "phone no",
+      "call",
+      "num",
+      "number",
+      "can I get the college number?",
+      "how to reach you by phone?",
+      "give me the college contact",
+      "what's the number to call?",
+      "any number to contact?",
+      "I need college phone no",
+      "how do I call the office?",
+      "need your digits",
+      "college number please",
+      "contact, number?",
+      "how do I ring the college?",
+      "got a number I can call?",
+      "where can I call for help?",
+      "need to talk to someone at college",
+      "college office number?",
+      "who do I call for help?",
+      "do you guys have a helpline?",
+      "I want to call the college",
+      "any mobile number for contact?",
+      "whom should I call for info?"
+    ],
+    "responses": [
+       "You can contact at: +91 0485 2837801,\n0485 2837805 \nAdmission_hotline: +91 9061063801,\n0485 2837801 \nfax: 0485 2837830,\nemail: info@mbits.edu.in,\nwebsite: www.mbits.edu.in"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "ContactRequest",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "course",
+    "text": [
+      "list of courses",
+      "list of courses offered",
+      "list of courses offered in",
+      "what are the courses offered in your college?",
+      "courses",
+      "courses offered",
+      "courses offered in college",
+      "courses you offer",
+      "branches?",
+      "courses available at",
+      "branches available at your college?",
+      "what are the courses in college",
+      "what are branches in college",
+      "what are courses in college",
+      "branches available in college",
+      "can you tell me the courses available in the college",
+      "can you tell me the branches available in the college",
+      "what all courses are there bro?",
+      "which branches are there in your clg?",
+      "course list ",
+      "give me branch list pls",
+      "how many branches in this college?",
+      "can I know the available courses?",
+      "what kind of courses do you guys offer?",
+      "in your college what courses are running?",
+      "college offers which streams?",
+      "which all streams are there?",
+      "bro tell me the courses",
+      "need list of branches pls",
+      "engineering branches pls",
+      "available streams in ur clg?",
+      "what all can I study here?",
+      "how many courses are there in total?",
+      "is CS available in your college?",
+      "IT branch"
+    ],
+    "responses": [
+       "Our college offers these courses: Diploma in Automobile Engineering, Diploma in Electrical and Electronics Engineering, Diploma in Mechanical engineering,Diploma in Civil Engineering,MBA,MCA,BCA,B.Tech in Civil Engineering,B.Tech in Mechanical Engineerig,B.Tech in Electrical and Electronics Engineering"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "AskingCourses",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "fees",
+    "text": [
+      "information about fee",
+      "information on fee",
+      "tell me the fee",
+      "college fee",
+      "fee per semester",
+      "what is the fee of each semester",
+      "what is the fees of each year",
+      "what is fee",
+      "what is the fees",
+      "how much is the fees",
+      "fees for first year",
+      "fees",
+      "about the fees",
+      "tell me something about the fees",
+      "how much is the fees",
+      "what's the total fee?",
+      "can you share the fee details?",
+      "how much do we have to pay?",
+      "what's the fee structure like?",
+      "what's the first year fee?",
+      "is there a breakdown of the fees?",
+      "how much is it per year?",
+      "how much is it per semester?",
+      "any idea about full course fee?",
+      "I need the fee structure please",
+      "how much is admission fee?",
+      "what's the tuition fee?",
+      "how much does the course cost?",
+      "do you have details about fees?",
+      "what's the overall college fee?",
+      "is the fee same for all branches?",
+      "can you explain the fee system?",
+      "how expensive is this college?",
+      "what amount do I need to pay?"
+  ],
+    "responses": [
+       "₹1.2 Lakhs to ₹3.6 Lakhs for undergraduate programs like B.Tech and BCA. For postgraduate programs like MCA, the fees are around ₹1.2 Lakhs,Hostel fees are around ₹72,000.    --*- In all courses fee structure are different-*---"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "FeeStructure",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "location",
+    "text": [
+       "where is the college located",
+       "college is located at",
+       "where is college",
+       "where is college located",
+       "address of college",
+       "how to reach college",
+       "college location",
+       "college address",
+       "wheres the college",
+       "how can I reach college",
+       "whats is the college address",
+       "what is the address of college",
+       "address",
+       "location",
+       "map",
+      "can you share the college location?",
+      "I need the address of the college",
+      "how do I reach your college?",
+      "can you send the location?",
+      "is the college on Google Maps?",
+      "what's the exact location?",
+      "drop the address please",
+      "where exactly is it?",
+      "how far is the college from the city?",
+      "can you share the map link?",
+      "what's the full address?",
+      "how can I find the college?",
+      "location details please",
+      "how do I get to your campus?",
+      "send college location",
+      "is the college near the bus stand?",
+      "how to get there?",
+      "nearest landmark to the college?",
+      "what area is the college in?",
+      "is the college in town or outskirts?"
+    ],
+    "responses": [
+    "Institution: Mar Baselios Institute of Technology and Science\nLocation:\nNellimattom P.O, Kothamangalam,\nErnakulam District, Kerala, India - 686693"
+   ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+  " context":  {
+        "in": "",
+        "out": "AddressOfCollege",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "hostel",
+    "text": [
+       "hostel facility",
+       "hostel servive",
+       "hostel location",
+       "hostel address",
+       "hostel facilities",
+       "hostel fees",
+       "Does college provide hostel",
+       "Is there any hostel",
+       "Where is hostel",
+       "do you have hostel",
+       "do you guys have hostel",
+       "hostel",
+       "hostel capacity",
+       "what is the hostel fee",
+       "how to get in hostel",
+       "what is the hostel address",
+       "how far is hostel from college",
+       "hostel college distance",
+       "where is the hostel",
+       "distance between college and hostel",
+       "distance between hostel and college",
+       "is hostel available in your college?",
+      "can I get a hostel room?",
+      "how to apply for hostel?",
+      "is hostel compulsory?",
+      "what are the hostel rules?",
+      "do first years get hostel?",
+      "are there AC rooms in hostel?",
+      "is hostel separate for boys and girls?",
+      "what facilities are in the hostel?",
+      "how many students per room?",
+      "is food included in hostel?",
+      "how's the hostel environment?",
+      "do we get WiFi in hostel?",
+      "any curfew timing for hostel?",
+      "how to register for hostel?",
+      "is hostel inside the campus?",
+      "is hostel fee included in the college fee?",
+      "can parents visit the hostel?",
+      "is laundry service available in hostel?",
+      "do hostel rooms have attached bathrooms?",
+      "what's the process to book a hostel seat?",
+      "when should I apply for hostel?"
+      
+    ],
+    "responses": [
+       "Hostel facility Inside the campus Gents Hostel and Ladies Hostel are seperate! To Apply the hostel admission the forms are Hostel Application Form Affidavit Both forms are required for hostel admission ! warden available on hostel ! also provide WIFI in hostel Location: Inside the MBITS campus, Nellimattom P.O, Kothamangalam, Ernakulam District, Kerala, India",
+       "Yes, Hostel facility Inside the campus Gents Hostel and Ladies Hostel are seperate! To Apply the hostel admission the forms are Hostel Application Form Affidavit Both forms are required for hostel admission ! warden available on hostel ! also provide WIFI in hostel Location: Inside the MBITS campus, Nellimattom P.O, Kothamangalam, Ernakulam District, Kerala, India",
+       "Yes, Gents Hostel and Ladies Hostel are seperate! To Apply the hostel admission the forms are Hostel Application Form Affidavit Both forms are required for hostel admission ! warden available on hostel ! also provide WIFI in hostel Hostel facility Inside the campus Location: Inside the MBITS campus, Nellimattom P.O, Kothamangalam, Ernakulam District, Kerala, India",
+       "To Apply the hostel admission the forms are Hostel Application Form Affidavit Both forms are required for hostel admission ! warden available on hostel ! also provide WIFI in hostel Location: Inside the MBITS campus, Nellimattom P.O, Kothamangalam, Ernakulam District, Kerala, India"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "HostelRelatedQueries",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "gentshostel",
+    "text": [
+      "tell me about the gents hostel",
+      "what facilities are available in the gents hostel",
+      "how to get a room in the gents hostel",
+      "what is the fee for the gents hostel",
+      "is there wifi in the gents hostel",
+      "are visitors allowed in the gents hostel",
+      "what are the hostel rules",
+      "who can stay in the gents hostel",
+      "how many students can stay in a room",
+      "what is the food menu in the gents hostel",
+      "is laundry available in the gents hostel",
+      "what is the hostel timing",
+      "how to apply for the hostel",
+      "gents hostel",
+      "hostel for gents"
+    ],
+    "responses": [
+       "🏢 **Gents Hostel Details:**\n\n**Facilities Provided:**\n- Furnishings: Cot, Table, Chair, Shelf, Cupboard, Ceiling Fan\n- Common Areas: Prayer Room, Recreation Space, Office Room\n- Study Areas: Study Areas on Each Floor, Group Study Hall\n- Utilities: Purified Drinking Water, Wi-Fi, 24-Hour Security, 3KVA UPS backup\n- Recreation: Indoor & Outdoor Games, TV in Mess Hall\n\n**Warden Contact:**\n- Name: Asst. Prof. Chethan Roy\n- 📞 Phone: +91 9496340257\n- 📧 Email: chethan@mbits.ac.in\n\n**Hostel Application Process:**\n- Required Documents: Hostel Application Form, Affidavit\n- Submission: Both forms must be submitted for hostel admission\n\n📌 **For more information, visit:** [MBITS Gents Hostel](https://mbits.ac.in/facilities/gents-hostel/)\n\n📬 General Contact:\n- Email: info@mbits.ac.in\n- Phone: +91 9061063801 / 0485 2837801 "
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "GentsHostel",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "ladieshostel",
+    "text": [
+      "tell me about the ladies hostel",
+      "what facilities are available in the ladies hostel",
+      "how to get a room in the ladies hostel",
+      "what is the fee for the ladies hostel",
+      "is there wifi in the ladies hostel",
+      "are visitors allowed in the ladies hostel",
+      "what are the hostel rules for ladies",
+      "who can stay in the ladies hostel",
+      "how many students can stay in a room in the ladies hostel",
+      "what is the food menu in the ladies hostel",
+      "is laundry available in the ladies hostel",
+      "what is the hostel timing for ladies",
+      "how to apply for the ladies hostel",
+      "ladies hostel",
+      "hostel ladies"
+    ],
+    "responses": [
+        "🏢 **Ladies Hostel Details:**\n\n**🏠 Building Info:**\n- Floors: 5\n- Total Rooms: 50\n- Room Capacity: 4 students per room\n- Room Types: 20 Attached, 30 Non-Attached\n\n**🛏️ Facilities Provided:**\n- **Furnishings:** Cot, Table, Chair, Shelf, Cupboard, Ceiling Fan\n- **Common Areas:** Prayer Room, Recreation Space, Office Room\n- **Study Areas:** Study Areas on Each Floor, Group Study Hall\n- **Utilities:** Purified Drinking Water, Wi-Fi, 24-Hour Security, 3KVA UPS Backup\n- **Recreational Amenities:** Indoor & Outdoor Games, TV in Mess Hall\n\n**👩‍🏫 Warden Contact:**\n- Name: Asst. Prof. Chethan Roy\n- 📞 Phone: +91 9496340257\n- 📧 Email: chethan@mbits.ac.in\n\n**📝 Hostel Application Process:**\n- Required Forms: Hostel Application Form & Affidavit\n- 📌 Both forms are required for admission\n\n🌐 **More Info:** [MBITS Ladies Hostel](https://mbits.ac.in/facilities/ladies-hostel/)\n\n📬 **General Contact:**\n- Email: info@mbits.ac.in\n- Phone: +91 9061063801 / 0485 2837801"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "LadiesHostel",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "event",
+    "text": [
+    "events organised",
+    "list of events",
+    "list of events organised in college",
+    "list of events conducted in college",
+    "What events are conducted in college",
+    "Are there any event held at college",
+    "Events?",
+    "functions",
+    "what are the events",
+    "tell me about events",
+    "what about events",
+    "what's happening in college?",
+    "any upcoming programs?",
+    "college functions list",
+    "is there any event this week?",
+    "can you share upcoming events?",
+    "future events at MBITS",
+    "MBITS event calendar",
+    "cultural programs in college",
+    "tech fest details",
+    "college day celebration info",
+    "what events are planned?",
+    "latest events in campus",
+    "is any seminar scheduled?",
+    "do we have any workshops coming?"
+    ],
+    "responses": [
+    "Upcoming Events:\n🔸 *COMING SOON* - Stay tuned for exciting upcoming events at MBITS! You can always check the official events page here 👉 [MBITS Events](https://mbits.ac.in/upcoming-events/)",
+
+    "Recent Events at MBITS:\n1. AICTE-VAANI Symposium on Disaster Resilient Infrastructure (Malayalam, Offline, Free, Jun 24–25, 2025)\n2. IC-IPSET’24 – Int’l Conf. on Sustainable Engineering & Tech (Hybrid, Jul 29–31, 2024)\n3. **SPICE’2K24** – Int’l Conf. on Signal Processing (Offline, Feb 9–10, 2024)\n4. **Global Alumni Meet** – Held on Dec 9, 2023 at MBITS Auditorium\n5. **Faculty Development Program** – 3-day training on AI & IoT (Offline)\n6. **Distinguished Lecture Program** – Aug 19, 2023 by Prof. V John Mathews\n7. **NCICST'23** – National Conf. on Innovations in CS & Tech, May 25–26, 2023\n\n👉 For more details, visit: [MBITS Events](https://mbits.ac.in/upcoming-events/)"
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "EventRelatedQueries",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "document",
+    "text": [
+    "document to bring",
+    "documents needed for admision",
+    "documents needed at the time of admission",
+    "documents needed during admission",
+    "documents required for admision",
+    "documents required at the time of admission",
+    "documents required during admission",
+    "What document are required for admission",
+    "Which document to bring for admission",
+    "documents",
+    "what documents do i need",
+    "what documents do I need for admission",
+    "documents needed",
+    "list of documents for admission",
+    "required documents for college admission",
+    "documents to carry on admission day",
+    "papers needed for college admission",
+    "necessary documents for admission",
+    "admission document checklist",
+    "what should I bring for admission",
+    "important documents for admission",
+    "which documents must be submitted during admission",
+    "documents to submit for admission",
+    "documents to bring on first day of college",
+    "documents required for verification",
+    "what are the mandatory documents for admission",
+    "documents required to complete admission",
+    "documents required for enrollment",
+    "which original documents are required",
+    "photocopies needed for admission",
+    "how many copies of documents are needed",
+    "can I bring scanned copies of documents",
+    "documents required for fee payment",
+    "which certificates should I bring for admission",
+    "proof of identity needed for admission",
+    "address proof documents required",
+    "educational certificates needed for admission",
+    "what documents needed for admission?",
+    "admission documents list?",
+    "which documents are required for btech admission?",
+    "bca admission documents?",
+    "mca admission documents?",
+    "mba admission documents?",
+    "mtech documents needed?",
+    "civil engineering admission papers?",
+    "what papers for mech admission?",
+    "eee admission documents please?",
+    "documents needed to join cse?",
+    "documents required for bca?",
+    "admission documents for mba course?",
+    "what are the necessary documents for mtech?",
+    "need document list for btech admission",
+    "admission documents for bca mca mba mtech?",
+    "is 12th marksheet needed for bca?",
+    "tc and conduct certificate required?",
+    "is aadhar card required for btech admission?",
+    "is medical certificate needed for mba?",
+    "do i need original documents for admission?",
+    "what documents are required at time of admission?",
+    "mca admission documents full list?",
+    "what documents should i carry for mbits admission?",
+    "are passport photos needed for admission?",
+    "anti ragging affidavit needed for bca?"
+    ],
+    "responses": [
+       
+    "For U G admission, students are required to submit the SSLC certificate, Plus Two certificate, Transfer Certificate, Conduct Certificate, Aadhar card copy, passport-sized photographs, and the allotment memo if admitted under the government quota. Originals of all certificates must be produced at the time of admission for verification. It is recommended to bring at least five passport-sized photographs and multiple photocopies of each document.Know more please specify the course",
+    "For B.Tech Lateral Entry admission, students must provide their Diploma certificate and mark sheets, SSLC certificate, Transfer Certificate, Conduct Certificate, Aadhar card copy, passport-sized photographs, anti-ragging affidavit, medical fitness certificate, and allotment memo if applicable. Originals of all certificates must be produced at the time of admission for verification. It is recommended to bring at least five passport-sized photographs and multiple photocopies of each document.Know more please specify the course",
+    "For M.Tech admission, students must submit their B.Tech degree certificate and mark sheets, SSLC and Plus Two certificates, Transfer Certificate, Conduct Certificate, Aadhar card copy, passport-sized photographs, and other required university documents. Originals of all certificates must be produced at the time of admission for verification. It is recommended to bring at least five passport-sized photographs and multiple photocopies of each document.Know more please specify the course",
+    "For MCA admission, required documents include the degree certificate and mark sheets of the qualifying degree, SSLC and Plus Two certificates, Transfer Certificate, Conduct Certificate, Aadhar card copy, and passport-sized photographs. Originals of all certificates must be produced at the time of admission for verification. It is recommended to bring at least five passport-sized photographs and multiple photocopies of each document.Know more please specify the course"
+  
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "DocumentsForAdmission",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "Btechlateral",
+    "text": [
+    "documents for btech lateral entry admission",
+    "which documents are needed for btech lateral admission",
+    "what are the required documents for btech lateral entry",
+    "list of documents for lateral entry",
+    "what to bring for btech lateral entry admission",
+    "required certificates for btech lateral",
+    "lateral entry admission documents",
+    "documents required for diploma holders joining btech",
+    "btech lateral entry joining documents",
+    "btech lateral doc"
+  ],
+  "responses": [
+    "Documents required for B.Tech Lateral Entry admission: Diploma Certificate and Mark Sheets, SSLC Certificate, Transfer Certificate (TC), Conduct Certificate, Passport-sized Photographs (5 copies), Aadhar Card Copy, Anti-Ragging Affidavit, Medical Fitness Certificate, Allotment Memo (for Government Quota candidates). Verification of original documents is mandatory during admission."
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "BtechlateralQuery",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+{
+  "intent": "document_bca",
+  "text": [
+    "documents needed for BCA admission",
+    "required documents for BCA course",
+    "what documents are needed to join BCA",
+    "BCA admission document list",
+    "documents to bring for BCA",
+    "paperwork required for BCA admission",
+    "what to submit for BCA admission",
+    "documents required for BCA program",
+    "which documents are needed for BCA",
+    "bca doc",
+    "BCA Doc"
+  ],
+  "responses": [
+    "For BCA admission, the required documents are: 10 +2 Certificate and Mark Sheets, SSLC Certificate, Transfer Certificate (TC), Conduct Certificate, Passport-sized Photographs (5 copies), Aadhar Card Copy, Anti-Ragging Affidavit, and Medical Fitness Certificate."
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "BcaDocQueries",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+  "intent": "document_mtech",
+  "text": [
+    "documents needed for M.Tech admission",
+    "required documents for M.Tech course",
+    "what documents are needed to join M.Tech",
+    "M.Tech admission document list",
+    "documents to bring for M.Tech",
+    "papers needed for M.Tech admission",
+    "documents needed for M.Tech counseling",
+    "what to submit for M.Tech admission",
+    "documents required for M.Tech program",
+    "which documents are needed for M.Tech",
+    "list of documents for M.Tech enrollment",
+    "M.Tech joining documents checklist",
+    "mtech doc",
+    "Mtech docs"
+  ],
+  "responses": [
+    "For M.Tech admission, the required documents are: B.Tech Degree Certificate and Mark Sheets, SSLC Certificate, Transfer Certificate (TC), Conduct Certificate, Passport-sized Photographs (5 copies), Aadhar Card Copy, Anti-Ragging Affidavit, and Medical Fitness Certificate."
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "MtechDocQueries",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+  "intent": "document_mca",
+  "text": [
+    "documents needed for MCA admission",
+    "required documents for MCA course",
+    "what documents are needed to join MCA",
+    "MCA admission document list",
+    "documents to bring for MCA",
+    "papers needed for MCA admission",
+    "documents needed for MCA counseling",
+    "what to submit for MCA admission",
+    "documents required for MCA program",
+    "which documents are needed for MCA",
+    "list of documents for MCA enrollment",
+    "MCA joining documents checklist",
+    "mca doc",
+    "MCA Docs"
+  ],
+  "responses": [
+    "For MCA admission, the required documents are: Graduation Degree Certificate and Mark Sheets, SSLC Certificate, Transfer Certificate (TC), Conduct Certificate, Passport-sized Photographs (5 copies), Aadhar Card Copy, Anti-Ragging Affidavit, and Medical Fitness Certificate."
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "McaDocQueries",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+  "intent": "document_mba",
+  "text": [
+    "documents needed for MBA admission",
+    "required documents for MBA course",
+    "what documents are needed to join MBA",
+    "MBA admission document list",
+    "documents to bring for MBA",
+    "papers needed for MBA admission",
+    "documents needed for MBA counseling",
+    "what to submit for MBA admission",
+    "documents required for MBA program",
+    "which documents are needed for MBA",
+    "list of documents for MBA enrollment",
+    "MBA joining documents checklist",
+    "documents required during MBA admission",
+    "MBA course admission papers",
+    "documents to carry on MBA admission day",
+    "important documents for MBA admission",
+    "verification documents for MBA admission",
+    "mba doc",
+    "MBA Docs"
+  ],
+  "responses": [
+    "For MBA admission, the required documents are: Graduation Degree Certificate and Mark Sheets, SSLC Certificate, Transfer Certificate (TC), Conduct Certificate, Passport-sized Photographs (5 copies), Aadhar Card Copy, Anti-Ragging Affidavit, and Medical Fitness Certificate."
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "MbaDocQueries",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+  "intent": "document_phd_cse",
+  "text": [
+    "documents needed for PhD admission",
+    "required documents for PhD course",
+    "what documents are needed to join PhD",
+    "PhD admission document list",
+    "documents to bring for PhD",
+    "papers needed for PhD admission",
+    "documents needed for PhD counseling",
+    "what to submit for PhD admission",
+    "documents required for PhD program",
+    "which documents are needed for PhD",
+    "list of documents for PhD enrollment",
+    "PhD joining documents checklist",
+    "documents required during PhD admission",
+    "PhD course admission papers",
+    "documents to carry on PhD admission day",
+    "important documents for PhD admission",
+    "verification documents for PhD admission"
+  ],
+  "responses": [
+    "For PhD in Computer Science and Engineering admission, the required documents are: Master's Degree Certificate and Mark Sheets, SSLC Certificate, Transfer Certificate (TC), Conduct Certificate, Passport-sized Photographs (5 copies), Aadhar Card Copy, Research Proposal, Anti-Ragging Affidavit, and Medical Fitness Certificate."
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "PhdDocQueries",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+  "intent": "about_college",
+  "text": [
+    "about Mar Baselios Institute of Technology and Science",
+    "MBITS college information",
+    "details about MBITS",
+    "MBITS Ernakulam",
+    "Mar Baselios Institute of Technology and Science overview",
+    "MBITS about us",
+    "tell me about MBITS",
+    "what is MBITS known for",
+    "when was MBITS established",
+    "is MBITS accredited",
+    "courses offered at MBITS",
+    "does MBITS have PhD programs",
+    "what awards has MBITS won",
+    "MBITS online exam center details",
+    "what is the vision of MBITS",
+    "who runs MBITS",
+    "tell me about Mar Basil Group of Institutions",
+    "MBITS facilities",
+    "campus life at MBITS",
+    "MBITS location and contact",
+    "what programs does MBITS offer",
+    "student activities at MBITS",
+    "does MBITS provide placement assistance",
+    "how good is the faculty at MBITS",
+    "MBITS hostel information",
+    "is MBITS a good engineering college",
+    "MBITS fee structure",
+    "how to apply for MBITS",
+    "admission process for MBITS",
+    "about us"
+  ],
+  "responses": [
+    "Mar Baselios Institute of Technology and Science (MBITS) is a premier engineering college established in 2009, committed to providing quality education in engineering. The college is accredited by the National Assessment and Accreditation Council (NAAC), reflecting its dedication to academic excellence.",
+    "MBITS offers a wide range of undergraduate (B.Tech), postgraduate (M.Tech), and doctoral (Ph.D.) programs in various branches of engineering. The institution aims to nurture students into responsible citizens with a strong sense of social and ethical values.",
+    "The college is part of the Mar Basil Group of Institutions, which includes Mar Basil Higher Secondary School, Mar Baselios Medical Mission Hospital, Mar Baselios School of Nursing, St. Mary's High School, Mar Baselios College of Nursing, Mar Baselios Dental College, and MBITS Polytechnic College. This group is owned by the Mar Thoma Cheriapally Kothamangalam and strives to provide quality education and healthcare services grounded in values of excellence, compassion, and social responsibility.",
+    "MBITS has been recognized with the New Code of Education Awards 2021 and the Edufuture Excellence National Award 2021 for its commitment to providing exceptional educational opportunities.",
+    "The college is an approved center for online examinations since 2012 for various prestigious national-level exams like GATE, CAT, JEE, NEET, JIPMER, AIIMS, RRB, IBPS, SSC, UGC NET, CUET, DRDO, IB, DGCA, NIC, SEBI, UPSC, NTA exams, NBE exams, and many more.",
+    "MBITS provides excellent infrastructure, experienced faculty, and well-equipped laboratories to enhance the learning experience for students.",
+    "The college is located in Ernakulam, Kerala, providing a serene and conducive environment for education.",
+    "Students at MBITS have access to various extracurricular activities and student clubs to enrich their campus life.",
+    "MBITS offers placement assistance and training programs to prepare students for their careers.",
+    "Admissions at MBITS are based on merit and follow guidelines provided by the respective regulatory authorities.",
+    "The college emphasizes research, innovation, and industry collaboration to keep students updated with current technological advancements."
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "collegeQueries",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "floor",
+    "text": [
+   "how many floors does the college have",
+    "number of floors in MBITS building",
+    "tell me about the floors in the college",  
+    "floors layout of MBITS",  
+    "how many floors are there in the main block",
+    "which floor is the library on",
+    "floors and facilities in the college building",
+    "where can I find the labs in the building",
+    "details about college floors",
+    "is there a ground floor in MBITS",
+    "what floor is the admin office on",
+    "floors distribution in MBITS campus",
+    "which floor has the classrooms",
+    "tell me about the floor plan of the college",
+    "how many floors do the academic blocks have",
+    "is there a floor map available",
+    "are there lifts to all floors",
+    "floor",
+    "building"
+    ],
+    "responses": [
+       "College Building was a 3 floor Office in Ground floor "
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Floor",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "library",
+    "text": [
+     
+      
+      "Can I borrow books from the library?",
+      "How long can I keep a book from the library?",
+      "Are there any digital resources in the library?",
+      "Is there a reading room in the library?",
+      "How can I get a library card?",
+      "Can I access the library online?",
+      "Are there any study rooms in the library?",
+      "What services does the library offer?",
+      "Can I print documents in the library?",
+      "Does the library have Wi-Fi?",
+      "How do I search for a book in the library?",
+      "Are there computers available in the library?",
+      "Do we have access to online journals through the library?",
+      "Is the library open on weekends?",
+      "Are there any membership charges for the library?",
+      "What is the fine for overdue books?",
+      "Who can I contact for library help?",
+      "Does the library provide research assistance?",
+      "About Library",
+      "Library available",
+      "Library",
+      "Books",
+      "Reading"
+    ],
+    "responses": [
+    "The MBITS Central Library, established in 2009, is a fully computerized, open-access library with over 22,200 books, 48 journals and magazines, as well as a variety of non-book materials like CDs and project reports. It supports students and faculty with digital resources such as DELNET, IETE journals, the National Digital Library, and NPTEL content, all accessible via campus-wide IP access. The library uses the Dewey Decimal Classification system and features an OPAC search tool to help locate materials easily. It includes a large reading room that accommodates 150+ students, offers reprographic (photocopy) facilities, and is open to all students, teaching, and non-teaching staff of MBITS.",
+    "At MBITS, the Central Library plays a crucial role in academic life. Since its establishment in 2009, it has grown to house more than 22,200 books, along with 48 journals and magazines. Students can explore not just books, but also digital tools like DELNET, IETE, NPTEL, and the National Digital Library, all accessible within the campus network. The library offers a spacious reading area for over 150 users, photocopying services, and uses OPAC for easy searching. Materials are organized using the Dewey Decimal system. All members of the MBITS community, including faculty and staff, have access to these resources.",
+    "The Central Library at MBITS, set up in 2009, offers an open-access environment with a vast collection of 22,200+ books, 48 journals, and non-book resources such as CDs and reports. The facility includes a 150-seat reading room and provides reprographic services. It is fully computerized and features OPAC for efficient book searches. Resources are classified using the Dewey Decimal System. The library grants access to several digital platforms like DELNET, IETE, NPTEL, and the National Digital Library, all accessible on-campus. Membership is open to all MBITS students, faculty, and staff."
+  
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Library",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "libraryHours",
+    "text": [
+        "What are the library timings?",
+        "When does the library open?",
+        "What time does the library close?",
+        "Is the library open on weekends?",
+        "Library working hours?",
+        "How long is the library open daily?",
+        "What are the opening and closing times of the library?",
+        "Is the library open in the evening?",
+        "Can I visit the library after class hours?",
+        "When can I access the library?",
+        "Is the library available during holidays?",
+        "Library schedule please",
+        "Do you know the operating hours of the library?",
+        "Till what time is the library open?",
+        "What time does the library start?",
+        "Is the library open now?",
+        "Are there different timings on Saturday?",
+        "Does the library remain open during exams?",
+        "What's the daily schedule of the library?",
+        "Library timing?",
+        "Timings of library?",
+        "Library open time?",
+        "Library close time?",
+        "Library hours?",
+        "Timing of library today?",
+        "Time for library",
+        "When library open?",
+        "When library close?",
+        "Can I know the library time?",
+        "Timing for college library?",
+        "Library open today?",
+        "Library is open now?",
+        "Library sunday timing?",
+        "Time of library today?",
+        "Is library open after 5pm?",
+        "How late is the library open?",
+        "When does the library shut?",
+        "Is library open after classes?",
+        "Library holiday hours?",
+        "Opening time of library?",
+        "Closing time of library?",
+        "Weekend library hours?",
+        "Library time pls?",
+        "Timings for accessing library?",
+        "what's the time for library?"
+    ],
+    "responses": [ 
+    "The college library is open during regular college working hours. You can visit the library to read or borrow books during your free periods or break times.",
+    "The library follows the college's regular schedule. Feel free to use it for reading or borrowing books anytime during working hours, especially during breaks.",
+    "Our college library remains open throughout standard college hours. Students are welcome to access it during lunch breaks, free hours, or any time classes are not in session."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "LibraryHours",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "infrastructure",
+    "text":  [
+  "how is college infrastructure",
+  "infrastructure",
+  "college infrastructure",
+  "Tell me about the college infrastructure",
+  "What facilities does the college have?",
+  "Is the infrastructure good?",
+  "Does the college have good buildings?",
+  "What about labs and classrooms?",
+  "College labs and classrooms condition?",
+  "Is the campus well maintained?",
+  "What facilities are available on campus?",
+  "Does the college have modern infrastructure?",
+  "Are the classrooms smart classrooms?",
+  "Do they have a computer lab?",
+  "Tell me about college campus",
+  "How big is the college campus?",
+  "Do they have a good library and lab?",
+  "Facilities in the college?",
+  "Is there a good canteen and sports area?",
+  "College has Wi-Fi?",
+  "Does the college have seminar halls?",
+  "What about the auditorium and labs?",
+  "Is there a hostel in the college?",
+  "How are the buildings and surroundings?",
+  "Is it a modern campus?",
+  "College campus quality?",
+  "How are the college facilities?",
+  "Are the classrooms air-conditioned?",
+  "Do we have clean toilets and drinking water?",
+  "Any smart facilities in the campus?",
+  "collge infrastucture?",
+  "collage infrastuctre",
+  "colg infra?",
+  "clg infrastucture",
+  "how infra of college?",
+  "college infra good?",
+  "campus facilitie?",
+  "labs and classrm?",
+  "is clg infrastructure good?",
+  "infrastcture of college",
+  "infrastracture",
+  "colg facilites",
+  "colg campus good?",
+  "facilites in collage?",
+  "infra good or not?",
+  "how's college infra?",
+  "collge facilitie",
+  "campus facilites?",
+  "infra in college",
+  "infra?",
+  "campus infra?",
+  "what all facilites?",
+  "good infra?",
+  "buildings good?",
+  "labs good?",
+  "classroom cond?",
+  "how is clg campus?",
+  "toilets clean?",
+  "canteen good?",
+  "sports area?",
+  "library and labs?",
+  "smart class?",
+  "seminar halls?",
+  "auditorium?",
+  "clean water?",
+  "drinking water avail?",
+  "buildings and campus?",
+  "is infra modrn?",
+  "how big campus?"
+],
+    "responses": [
+    "MBITS offers spacious, well-ventilated classrooms with modern teaching aids like audio-visual systems ensuring effective learning. The Mechanical Engineering department features labs including Machine Tools Lab (lathe, milling), Advanced Machine Tools Lab (CNC lathe), Thermal Engineering Lab (spark and compression ignition engines), CAD and Computer Integrated Manufacturing labs with software like AutoCAD and Solid Edge. The Computer Science department boasts a Common Computing Centre with 72 computers running Ubuntu 16.04 and Windows 10, Programming Lab, Mobile Application Development Lab (Android, SQLite), System Software and Microprocessor Lab, IoT Lab, DBMS Lab, Integrated Electronics Simulation Lab, Computational Lab, and CAD Lab.",
+    "The classrooms at MBITS are comfortable, well-lit, and equipped with audio-visual aids for enhanced teaching. Mechanical Engineering labs include facilities such as lathe and milling machines in the Machine Tools Lab, CNC lathe and precision measurement tools in the Advanced Machine Tools Lab, and various engine types in the Thermal Engineering Lab. CAD and Computer Integrated Manufacturing labs utilize AutoCAD, Solid Edge, CNC milling, turning machines, and PLCs. For Computer Science, there is a 72-computer Common Computing Centre, labs for programming, mobile app development with Android tools, IoT, DBMS with Big Data tech, microprocessors, integrated electronics simulation, computational techniques, and CAD.",
+    "MBITS infrastructure features large, well-ventilated classrooms outfitted with modern teaching aids. The Mechanical Engineering department hosts several labs: Machine Tools Lab with lathe and milling machines; Advanced Machine Tools Lab with CNC lathe machines; Thermal Engineering Lab with spark-ignition and compression-ignition engines; CAD and Computer Integrated Manufacturing labs using software like AutoCAD and Solid Edge, along with CNC and PLC equipment. The Computer Science department includes a 72-computer Common Computing Centre (Ubuntu 16.04, Windows 10), labs dedicated to programming, mobile app development (Android, SQLite), IoT, DBMS, system software, microprocessors, integrated electronics simulation, computational methods, and CAD.",
+    "At MBITS, classrooms are spacious and well-ventilated, equipped with modern audio-visual aids to support learning. Mechanical Engineering labs include the Machine Tools Lab (lathe, milling), Advanced Machine Tools Lab (CNC lathe, precision tools), Thermal Engineering Lab (spark and compression ignition engines), and labs for CAD and Computer Integrated Manufacturing using AutoCAD, Solid Edge, CNC machines, and PLCs. The Computer Science department features a Common Computing Centre with 72 computers running Ubuntu 16.04 and Windows 10, plus labs for programming, mobile apps on Android, IoT, DBMS, microprocessors, integrated electronics simulation, computational techniques, and CAD.",
+    "MBITS classrooms are designed for comfort and functionality, providing proper ventilation and modern audio-visual teaching aids. The Mechanical Engineering department’s labs include Machine Tools Lab (lathe, milling), Advanced Machine Tools Lab with CNC lathes and precision instruments, Thermal Engineering Lab with spark and compression ignition engines, and CAD and Computer Integrated Manufacturing labs featuring AutoCAD, Solid Edge, CNC milling/turning machines, and PLCs. Computer Science labs include a 72-computer Common Computing Centre (Ubuntu and Windows OS), Programming Lab, Mobile App Development Lab (Android, SQLite), System Software and Microprocessor Lab, IoT Lab, DBMS Lab (with Big Data technologies), Integrated Electronics Simulation Lab, Computational Lab, and CAD Lab.",
+    "The infrastructure at MBITS comprises spacious and ventilated classrooms equipped with modern teaching aids such as audio-visual systems. Mechanical Engineering labs include Machine Tools Lab with lathe and milling machines, Advanced Machine Tools Lab with CNC lathes and precision tools, Thermal Engineering Lab with spark and compression ignition engines, and labs for CAD and Computer Integrated Manufacturing using AutoCAD, Solid Edge, CNC, and PLC equipment. The Computer Science department houses a Common Computing Centre with 72 computers (Ubuntu 16.04 and Windows 10), Programming Lab, Mobile Application Development Lab (Android, SQLite), System Software and Microprocessor Lab, IoT Lab, DBMS Lab (including Big Data technologies), Integrated Electronics Simulation Lab, Computational Lab, and CAD Lab."
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Infra",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "canteen",
+    "text": [
+       "food facilities",
+  "canteen facilities",
+  "canteen facility",
+  "is there any canteen",
+  "Is there a cafetaria in college",
+  "Does college have canteen",
+  "Where is canteen",
+  "where is cafetaria",
+  "canteen",
+  "Food",
+  "Cafetaria",
+  "whats the canteen timings",
+  "canteen timing",
+  "canteen open time",
+  "canteen close time",
+  "food availablity in canteen",
+  "canteen food quality",
+  "canteen price",
+  "is food cheap in canteen",
+  "cafeteria open hours",
+  "cafeteria location",
+  "canteen location",
+  "is there any snack shop",
+  "is food available all day",
+  "canteen open on weekends",
+  "where can i get lunch",
+  "canteen timings pls",
+  "canteen opn",
+  "is the cafetaria open now",
+  "do we have canteen service",
+  "do we have cafetaria",
+  "canteen is near?",
+  "food shop in college",
+  "college cafetaria",
+  "is food good here",
+  "canteen service timings",
+  "canteen facilities available",
+  "canteen timings today",
+  "where can i eat",
+  "canteen working hours",
+  "canteen operational hours",
+  "do we get snacks in canteen",
+  "is water available in canteen",
+  "any coffee shop in college",
+  "cafeteria timings",
+  "cafeteria food",
+  "food prices in cafeteria",
+  "canteen timings now",
+  "where is food court"
+
+    ],
+    "responses": [
+    "MBITS has a canteen located outside the main block near the hostels, and a cafeteria located inside the main block. Both offer a variety of quality food and beverages. The canteen is convenient for hostel residents while the cafeteria is popular among students and staff during breaks, also hosting events like music fests.",
+    "The canteen at MBITS is situated near the hostels outside the main building, whereas the cafeteria is inside the main building. Both places serve fresh, tasty food and drinks in clean, comfortable environments, making them favored spots for dining and socializing on campus.",
+    "At MBITS, the canteen is located outside the main block near hostels and the cafeteria inside the main building. Both facilities provide diverse menus catering to different tastes, with the cafeteria also hosting campus events like music festivals to enhance student life.",
+    "MBITS offers a canteen outside the main block close to hostels and a cafeteria inside the main building. Both serve students, faculty, and staff with a range of quality meals and snacks in hygienic settings. The cafeteria doubles as an event space for cultural and music activities.",
+    "The canteen at MBITS is conveniently placed outside the main block near hostel accommodations, while the cafeteria is inside the main block. Both facilities are well-maintained, offering quality food and refreshments, and the cafeteria is known for hosting lively campus events.",
+    "MBITS features a canteen outside the main building near the hostels and a cafeteria located inside the main block. These two dining facilities provide excellent food options in clean, comfortable spaces, with the cafeteria also functioning as a venue for music fests and other events.",
+    "The canteen near the hostels outside the main block and the cafeteria inside the main building at MBITS serve a variety of food and beverages. Both are popular dining options, with the cafeteria also being a hub for social events and student gatherings.",
+    "At MBITS, the canteen is located outside the main block near hostels, making it convenient for residential students. The cafeteria, located inside the main block, offers diverse food choices and hosts campus events, creating a lively atmosphere for all.",
+    "MBITS has two main food facilities: a canteen outside the main block near hostels and a cafeteria inside the main building. Both provide quality food in hygienic conditions and comfortable surroundings. The cafeteria also serves as an event space for music and cultural fests.",
+    "The MBITS canteen, located near the hostels outside the main block, and the cafeteria inside the main building, offer students and staff various dining options. Both maintain cleanliness and quality, while the cafeteria hosts events adding to the vibrant campus culture."
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+  " context":  {
+        "in": "",
+        "out": "Snacking",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "menu",
+    "text": [
+       "food menu",
+      "food in canteen",
+      "Whats there on menu",
+      "what is available in college canteen",
+      "what foods can we get in college canteen",
+      "food variety",
+      "What is there to eat?",
+      "canteen menu details",
+      "can i see the menu?",
+      "menu for today",
+      "what dishes are served",
+      "canteen food options",
+      "whats for lunch?",
+      "any special menu today?",
+      "menu price list",
+      "food available now",
+      "menu update please",
+      "what snacks are available?",
+      "what drinks are there?",
+      "canteen menu timings",
+      "list of foods served",
+      "food list in canteen",
+      "today's menu",
+      "menu for evening",
+      "menu card in canteen",
+      "what can i eat?",
+      "best food in canteen?",
+      "is menu fixed?",
+      "menu changes often?",
+      "canteen food quality?",
+      "whats tasty in canteen?",
+      "any veg options?",
+      "non veg food available?",
+      "food variety in canteen",
+      "menu pls",
+      "food items list",
+      "canteen menu info",
+      "whats cooking in canteen?",
+      "is menu healthy?",
+      "can i get food menu?",
+      "food list today",
+      "menu for breakfast",
+      "menu for dinner",
+      "menu prices",
+      "is menu updated daily?"
+    ],
+    "responses": [
+    "The canteen at MBITS offers a variety of foods every day, including special meals on certain days. The cafeteria mainly serves snacks, which change on different days, along with fresh juices like lime juice. For lunch, the canteen provides special dishes occasionally, ensuring a diverse menu for students.",
+    "MBITS cafeteria serves different snacks and juices on various days, giving students tasty options throughout the week. Meanwhile, the canteen provides a wide variety of foods daily, with special lunch menus offered on some days to keep the meals exciting and varied.",
+    "In MBITS, the cafeteria menu includes a variety of snacks that change depending on the day, plus refreshing juices like lime juice. The canteen offers a broad range of food items every day and occasionally features special lunch menus for students and staff.",
+    "The cafeteria at MBITS serves an assortment of snacks that differ each day along with juices such as lime juice, while the canteen offers a daily variety of foods. On special days, the canteen also provides lunch specials, making sure there’s always something new to enjoy.",
+    "MBITS canteen has a daily variety of foods and special lunches on some days, while the cafeteria offers changing snacks and juices like lime juice on different days. Together, they provide diverse food options to keep the campus dining experience fresh and enjoyable."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Menu",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "placement",
+    "text": [
+       "What is college placement",
+      "Which companies visit in college",
+      "What is average package",
+      "companies visit",
+      "package",
+      "About placement",
+      "placement",
+      "recruitment",
+      "placement details",
+      "how's the placement here?",
+      "avg placement?",
+      "top companies coming?",
+      "do we get placed?",
+      "what's the placement rate?",
+      "how many students got placed",
+      "is placement good?",
+      "placement stats pls",
+      "job placement info",
+      "recruitment process",
+      "how do placements work",
+      "company list for placement",
+      "highest package?",
+      "lowest package?",
+      "median package?",
+      "how many got job?",
+      "campus hiring details",
+      "on campus placement?",
+      "off campus placement options?",
+      "which branch has best placement?",
+      "does cse have good placements?",
+      "placement for ece?",
+      "placements for mech?",
+      "avg salary after placement?",
+      "top recruiters in college",
+      "placement cell help?",
+      "placement officer contact?",
+      "when placement starts?",
+      "is placement ongoing?",
+      "final year placement?",
+      "is placement 100 percent?",
+      "placement support available?",
+      "how to register for placement?",
+      "do all students get placed?",
+      "campus placement vs off campus?",
+      "jobs after btech?",
+      "will i get job after studying here?",
+      "placement opportunity?",
+      "do internships lead to placement?",
+      "internship and placement difference",
+      "placement drive date?",
+      "when companies come?"
+    ],
+    "responses": [
+    "MBITS's Training & Placement Cell, led by Placement Officer Mr. Jenty Joy with assistant officers Mr. Vijay Raj M M and Mrs. Jeena Jacob, works hard to bridge students with top recruiters by using modern placement techniques, coordinating pooled recruitment drives, and aiming to place all talented students, backed by faculty and trained student team.",
+    "The placement cell at MBITS, headed by Mr. Jenty Joy (Placement Officer) along with Mr. Vijay Raj M M and Mrs. Jeena Jacob (Assistant Officers), uses contemporary methods to connect students to quality companies and organizes state-level pooled campus drives, engaging an experienced team and trained students to ensure maximum placement.",
+    "MBITS has a full-time, experienced Training & Placement Cell comprising Placement Officer Mr. Jenty Joy and two assistant officers (Mr. Vijay Raj M M and Mrs. Jeena Jacob) along with a trained student team, dedicated to matching students with quality recruiters, arranging pooled recruitment across Kerala, and enhancing student competence with modern placement practices.",
+    "At MBITS, the Corporate Relations & Placement Team including Mr. Jenty Joy (Head), Mr. Vijay Raj M M, and Mrs. Jeena Jacob works with students and industry to place students in quality roles, using modern strategies, pooled campus drives in Kerala, and a collaborative effort from staff and trained students to fulfill placement goals.",
+    "The Training & Placement Cell at MBITS is steered by Placement Officer Mr. Jenty Joy with support from Mr. Vijay Raj M M and Mrs. Jeena Jacob. Their goal is to equip students with modern placement readiness, connect them to quality recruiters, and coordinate pooled recruitment drives for colleges across Kerala using a faculty-student team.",
+    "MBITS's placement cell, led by Mr. Jenty Joy and assisted by Mr. Vijay Raj M M and Mrs. Jeena Jacob, provides modern recruitment techniques and social commitment by hosting pooled drives, aiming to place students with top companies statewide, supported by a trained team of faculty and students.",
+    "The placement function at MBITS is managed by Mr. Jenty Joy (Placement Officer) along with Mr. Vijay Raj M M and Mrs. Jeena Jacob as assistants. They work with trained students to apply the latest recruitment strategies, organize pooled campus drives across Kerala, and help match students' talents with quality recruiters.",
+    "MBITS maintains a robust Training & Placement Cell under Mr. Jenty Joy, assisted by Mr. Vijay Raj M M and Mrs. Jeena Jacob. The cell deploys modern placement methodologies, organizes pooled recruitment for colleges in Kerala, and aims to place every capable student through coordinated faculty and student efforts.",
+    "The Training & Placement Cell at MBITS, comprising Placement Officer Mr. Jenty Joy and Assistant Officers Mr. Vijay Raj M M and Mrs. Jeena Jacob, ensures student-employer connections through modern placement techniques, pooled recruitment drives across Kerala, and an integrated team of faculty and trained students striving for quality placements.",
+    "MBITS's Corporate Relations & Placement setup, led by Mr. Jenty Joy with Mr. Vijay Raj M M and Mrs. Jeena Jacob, is dedicated to student placement using up-to- date strategies, conducting pooled campus drives in the state, and leveraging a collaborative faculty and student team to place students with reputable recruiters."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Placements",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "companies",
+    "text": [ 
+    "Which companies visit the campus?",
+    "what companies come for placement?",
+    "campus placement companies?",
+    "company list for placement?",
+    "who all come for placement?",
+    "which recruiters are coming?",
+    "top companies in placement?",
+    "recruiters coming to mbits?",
+    "companies visiting this year?",
+    "placement company names?",
+    "can u tell company names?",
+    "what firms will come?",
+    "placement recruiters list?",
+    "do big companies come?",
+    "what are the placement companies?",
+    "any MNCs visiting?",
+    "company for CSE placement?",
+    "companis coming dis year?",
+    "who give job in campus?",
+    "is tcs coming?",
+    "do infosys visit?",
+    "list of recruiting companies",
+    "what companies visited last year?",
+    "company names for this year?",
+    "mbits placement recruiters?",
+    "placement drive companies?",
+    "which companies give job?",
+    "campus drive companies list?",
+    "company for software jobs?",
+    "core companies visiting?",
+    "companies"
+    ],
+    "responses": [
+       "Several reputed companies have visited MBITS for campus recruitment over the years. Some of the key recruiters include TCS, Infosys, Wipro, UST Global, Cognizant, IBS Software, Quest Global, Speridian, Tata Elxsi, and Envestnet. The college consistently works to bring in more high-quality recruiters through pooled drives and industry partnerships."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Companies",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "BTech",
+    "text": [
+       "What is BTech?",
+      "tell me about btech course",
+      "btech overview pls",
+      "can u explain btech course?",
+      "i wanna know btech",
+      "what is the btech program?",
+      "btech course details?",
+      "info about btech",
+      "b tech course?",
+      "what do we learn in btech?",
+      "how is btech course?",
+      "btech main subjects?",
+      "btech syallbus overview?",
+      "abt btech course",
+      "wat is btech?",
+      "btech full info?",
+      "plz tell about btech",
+      "how many years btech?",
+      "is btech good?",
+      "why study btech?",
+      "scope of btech course?",
+      "what's included in btech?",
+      "btech intro pls",
+      "overview of btech course?",
+      "btech ke baare me batao",
+      "wanna know about b tech",
+      "what kind of course is btech?",
+      "btech degree meaning?",
+      "btech course pattern?",
+      "what does btech include?"
+    ],
+    "responses": [
+       "Mar Baselios Institute of Technology and Science (MBITS) offers a 4-year full-time B.Tech program affiliated to Mahatma Gandhi University, with semester-based exams. Specializations include Civil, Mechanical, EEE, ECE (30 seats each), CSE (180 seats), and CSE (Data Science) with 60 seats. Admission is through KEAM, with lateral entry in the 3rd semester. Fees total ₹2,40,000, and scholarships are offered. 2023 placements had a 100% rate with top recruiters like Tata and Infosys.",
+      "MBITS's B.Tech is a semester-based 4-year engineering course with full-time mode and Mahatma Gandhi University affiliation. Six branches are offered including Civil and Computer Science (Data Science). KEAM is the primary entrance. Scholarships like AICTE fee waiver and Merit Cum-Means are available. Annual tuition is ₹60,000. Placement in 2023 saw a 100% success rate and a median salary of ₹4.3 LPA.",
+      "The Bachelor of Technology (B.Tech) at MBITS is a 4-year program across six engineering disciplines. It is affiliated to Mahatma Gandhi University, Kottayam and follows a semester system. Admission requires 50% in 10+2 with KEAM ranking. Lateral entry is permitted in the 3rd semester. Fees are ₹60,000 annually. 100% placement rate was recorded in 2023, with firms like L&T and Capgemini participating.",
+      "MBITS offers a full-time, 4-year B.Tech degree affiliated with Mahatma Gandhi University. The curriculum spans six engineering fields, with Computer Science having the largest intake. Entry is through KEAM, and lateral entry is allowed in the 3rd semester. Total tuition is ₹2.4 lakh. Scholarships for minority and meritorious students are available. Placements are strong with a 100% success rate and top companies hiring.",
+      "The B.Tech program at MBITS includes Civil, Mechanical, EEE, ECE, CSE, and Data Science specializations. It's affiliated with Mahatma Gandhi University and runs on a semester basis. Admission via KEAM is required. Lateral entry is offered in the third semester. Fee: ₹2,40,000. Scholarships like Central Sector and Management aid are available. In 2023, the highest placement offer reached ₹9.2 LPA.",
+      "MBITS delivers a robust 4-year B.Tech course with specialization options ranging from Civil to CSE (Data Science). Affiliated to Mahatma Gandhi University and KEAM-based admissions, the program includes lateral entry, scholarships, and strong industry links. Placements are 100%, with a median salary of ₹4.3 LPA and top recruiters like Infosys, Tata, and Cognizant."
+
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Btech",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "BtechEligibility",
+    "text": [
+      "What is the eligibility for BTech?",
+    "BTech eligibility criteria in MBITS?",
+    "Eligibility rules for BTech at MBITS",
+    "Am I eligible for BTech at MBITS?",
+    "Can I get BTech admission with 50 percent?",
+    "Can I join BTech with 45% marks?",
+    "Is 49% enough for MBITS BTech course?",
+    "Do I need KEAM for BTech in MBITS?",
+    "Is KEAM compulsory to get into MBITS?",
+    "Can I apply to BTech without entrance exam?",
+    "What subjects are required for BTech admission?",
+    "Is Chemistry mandatory for BTech?",
+    "Is Maths and Physics compulsory for BTech?",
+    "Can I join BTech if I did not take Chemistry?",
+    "Can I study BTech with Biology instead of Chemistry?",
+    "Can I apply to BTech with Physics, Biology and Maths?",
+    "Is Computer Science an optional subject for BTech eligibility?",
+    "What percentage is needed in 12th for BTech?",
+    "Minimum marks required for BTech in MBITS?",
+    "Eligibility for BTech Civil Engineering",
+    "Eligibility for BTech Mechanical Engineering",
+    "Eligibility criteria for BTech EEE",
+    "Eligibility for Electronics and Communication Engineering",
+    "Eligibility for CSE at MBITS",
+    "Eligibility for CSE Data Science specialization",
+    "Eligibility for CSE AI and ML course",
+    "Eligibility for BTech lateral entry in MBITS",
+    "I have diploma, can I join BTech third semester?",
+    "Is lateral entry available after polytechnic diploma?",
+    "Can diploma holders join BTech at MBITS?",
+    "What are the eligibility conditions for lateral entry?",
+    "What is the required KEAM rank for MBITS?",
+    "Can I join through management quota without KEAM?",
+    "Do management seats need entrance exam?",
+    "Do I need KEAM for management admission?",
+    "Is KEAM mandatory for all BTech specializations?",
+    "Is there different eligibility for BTech branches?",
+    "Can I apply to BTech Data Science without KEAM?",
+    "Can I apply to BTech AI and ML with Biology background?",
+    "How much percentage is required for CSE in MBITS?",
+    "Is 50% enough for BTech Data Science?",
+    "Can I study BTech Computer Science with PCM?",
+    "Is lateral entry possible for CSE AI and ML?",
+    "Eligibility requirements for BTech AI/ML after 12th",
+    "Can I apply to BTech if I failed in one subject?",
+    "Can I take admission in MBITS with average marks?",
+    "What is the eligibility for BTech after 12th Science?",
+    "Can I do BTech without Maths?",
+    "Is Physics and Computer Science enough for BTech?",
+    "Do I need to pass in all subjects to get BTech seat?",
+    "Can I get BTech seat without KEAM if I have high marks?",
+    "Can a student from vocational background join BTech?",
+    "Is 10+2 with PCM mandatory for MBITS BTech?",
+    "What are the academic qualifications for MBITS BTech?",
+    "What is the eligibility for Computer Science Engineering?",
+    "What is the eligibility for Civil Engineering course?",
+    "What is the eligibility for BTech Mechanical Engineering?",
+    "What is the eligibility for BTech EEE in MBITS?",
+    "Eligibility for Electronics and Communication branch?",
+    "Is Physics, Maths and Biotechnology eligible for BTech?",
+    "Can I join BTech with Computer Science and Biology?",
+    "What are the minimum marks for MBITS BTech admission?",
+    "Does MBITS accept 49.5% for BTech admission?",
+    "Can I take admission in BTech with 12th Biology and Maths?",
+    "Is entrance exam required for all BTech specializations?",
+    "I have diploma in mechanical, can I join BTech mechanical?",
+    "Is KEAM compulsory for BTech lateral entry?",
+    "Is there a difference in eligibility between CSE and AI/ML?",
+    "What marks are required for BTech Computer Science Data Science?",
+    "Can I apply for BTech if I studied Computer Applications?",
+    "Is 12th pass with Physics and Maths enough for MBITS?",
+    "How to get BTech admission without entrance test?",
+    "Can I study CSE if I have only 48% in PCM?",
+    "Eligibility for BTech management quota in MBITS?",
+    "Is KEAM rank compulsory for civil engineering?",
+    "Can I join MBITS BTech through direct admission?",
+    "Is BTech admission open without KEAM in MBITS?",
+    "What is the eligibility to join MBITS CSE Data Science?",
+    "Can I join BTech without scoring 50%?",
+    "What are the optional subjects accepted for BTech?",
+    "Are there scholarships for BTech students with low income?",
+    "Can I do BTech if I studied PCB?",
+    "Can I join BTech if I failed Chemistry but passed PCM overall?",
+    "Are diploma holders eligible for any BTech specialization?",
+    "What if I have KEAM rank but low 12th marks?",
+    "Can I get MBITS BTech seat if I pass only in Maths and Physics?",
+    "Is there lateral entry to BTech Data Science course?",
+    "Eligibility for BTech AI and ML with PCM and Computer Science?",
+    "Can I apply with 10+2 NIOS marks for MBITS BTech?"
+    ],
+    "responses": [  
+      "To be eligible for B.Tech at MBITS, students must have passed 10+2 or equivalent with Physics and Mathematics as compulsory subjects, along with one optional subject like Chemistry, Biology, Biotechnology, or Computer Science, with a minimum aggregate score of 50%. Admission requires qualifying the KEAM entrance exam conducted by Kerala’s Commissioner for Entrance Examinations.",
+      "Admission to the B.Tech program at MBITS follows a semester-based examination system and offers lateral entry for diploma holders directly into the 3rd semester. Seat allocation is equally divided with 50% for government quota seats allotted through KEAM rank, and 50% for management quota seats allotted based on KEAM rank and/or qualifying exam marks.",
+      "Students without Chemistry but having Physics, Mathematics, and one optional subject from the approved list are eligible. Lateral entry candidates must also meet similar eligibility criteria and seats for lateral entry are divided equally between government and management quotas. A merit scholarship reserves 10% of seats without tuition fees for economically backward, meritorious students under AICTE fee waiver.",
+      "For all specializations including Civil, Mechanical, Electrical, Electronics & Communication, Computer Science, and Data Science, the eligibility criteria remain the same: pass in 10+2 with Physics and Maths plus one optional subject and qualifying KEAM. Diploma holders can join through lateral entry with half the seats reserved for government quota and half for management quota.",
+      "Management quota seats are allocated based on KEAM rank or qualifying examination marks. Additionally, students from minority communities or those scoring above 80% in 12th standard with parental income below ₹6 lakhs per annum are eligible for scholarships. The entire B.Tech course duration is 4 years, offered full-time and affiliated with Mahatma Gandhi University, Kottayam."
+     ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "BtechEligible",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "Btechfees",
+    "text": [
+    "what is the btech fees in mbits?",
+    "how much total fee for btech course?",
+    "mbits btech fee per year pls?",
+    "is btech fees 60000 per year?",
+    "total fees for 4 year btech in mbits?",
+    "how much to pay every year for btech?",
+    "btech yearly fees?",
+    "can i know the tuition fee for btech?",
+    "fees structure of btech in mbits?",
+    "mbits engineering course fees details?",
+    "how much money needed for full btech?",
+    "btech fee for computer science?",
+    "fees of data science branch in btech?",
+    "is hostel fee included in btech fee?",
+    "any extra fees other than tuition for btech?",
+    "mbits total btech cost with 4 year fees?",
+    "how much is semester fees in btech?",
+    "is there any fee concession for btech?",
+    "btech fees in government quota and management quota?",
+    "do management students pay more btech fee?",
+    "cse btech fee details?",
+    "how much for cse data science fee?",
+    "btech fees ai ml mbits?",
+    "civil engineering btech fees?",
+    "mech btech fees structure?",
+    "eee btech total fee?",
+    "electronic and communication branch btech fee?",
+    "fee for each btech specialization?",
+    "semester wise fee for btech in mbits?",
+    "fee structure of btech cse mbits?",
+    "fees per semester in cse data science?",
+    "is there scholarship for btech fee?",
+    "total amount needed for btech ai ml?",
+    "cse ai ml mbits fees per year?",
+    "fee details for mechanical engineering in mbits?",
+    "data science cse fee structure?",
+    "civil btech how much per year?",
+    "electrical engg btech fee full course?",
+    "btech fee year by year split?",
+    "fees for each department in mbits btech?",
+    "what is lateral entry btech fee?",
+    "is lateral btech fee same as regular?",
+    "management quota btech cse fees?",
+    "fee for keam quota students in btech?",
+    "total tuition fee for 4 years btech in mbits?",
+    "fee required for admission btech mbits?",
+    "first year btech fees in mbits?",
+    "cse data science how much fees total?",
+    "ai ml course fee yearly and total?",
+    "does mbits take same fee for all branches?",
+    "btech mech fees per semester?",
+    "can i pay btech fees in instalments?",
+    "fee refund rules for btech course?",
+    "is 240000 total fee for all btech branches?",
+    "do civil students have same fee as cse?",
+    "cse btech hostel and tuition fee?",
+    "btech mbits full fee details branch wise?",
+    "cse mbits fee vs data science fee?",
+    "difference in fee between cse and ai/ml?",
+    "how much cost for electrical btech in mbits?",
+    "is ece btech fee high in mbits?",
+    "how much is the total fee for mechanical btech?",
+    "which branch has higher fee in btech mbits?",
+    "fee for cse lateral entry student?",
+    "what is tuition fee of mbits for engineering?",
+    "mbits btech fees with and without scholarship?",
+    "fee for mbits btech 2025 batch?",
+    "is there admission fee separately for btech?",
+    "do we pay exam fee separately in mbits btech?"
+    ],
+    "responses": [ 
+    "The total fee for the full-time 4-year B.Tech program at MBITS is ₹2,40,000, which is divided as ₹60,000 per year. This fee applies to all specializations including Computer Science, Civil, Mechanical, EEE, ECE, and Data Science.",
+    "MBITS charges ₹60,000 per year for the B.Tech program, making the total fee ₹2.4 lakhs over 4 years. This fee is applicable regardless of the specialization chosen and applies to both government and management quota students.",
+    "For B.Tech admission at MBITS, the annual tuition fee is ₹60,000, and the total for 4 years comes to ₹2,40,000. This structure is the same for all branches and both quotas, although scholarships may reduce the cost for eligible students.",
+    "Students admitted to MBITS for B.Tech under government or management quota will pay ₹60,000 per year, totaling ₹2.4 lakh for the course. In addition to this, eligible students can apply for scholarships or AICTE fee waivers.",
+    "The complete fee for the MBITS B.Tech course is ₹2,40,000 spread across 4 years, with ₹60,000 to be paid each year. Economically weaker students or those eligible under scholarship schemes may receive full or partial fee waivers."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "BtechFees",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "sem",
+    "text": [
+    "how many sems in btech?",
+    "mbits btech have 8 sem or more?",
+    "sem wise exam or yearly exam?",
+    "is it semester sytem in mbits?",
+    "btech total sems and duration pls",
+    "how many month in one sem?",
+    "how long is 1 sem?",
+    "mbits btech is 4 yrs and 8 sems right?",
+    "does mbits have semester based course?",
+    "btech has 2 semester per year?",
+    "how long each semester last in btech?",
+    "is sem pattern followed in mbits?",
+    "btech duration and sem count?",
+    "semesters in 4 year engineering course?",
+    "how many semester in btech mbits?",
+    "sem wise syllabus or year wise?",
+    "how many sems in cse btech?",
+    "duration of each sem in mbits btech?",
+    "semester duration for btech in mbits?",
+    "is mbits btech course split into sem?",
+    "btech sem",
+    "civil engineering has 8 semesters?",
+    "mech branch also 8 sem?",
+    "eee engineering semester system?",
+    "what is the sem system for cse in mbits?",
+    "sem count in data science cse course?",
+    "sem count for ai and ml course?",
+    "cse data science semester length?",
+    "duration of sem in electronics and communication?",
+    "sem wise exam in mbits for mechanical branch?",
+    "how many total semesters in mbits cse ai ml?",
+    "each branch in btech have 8 sem?",
+    "is sem duration same for civil and cse?",
+    "eee and ece sem duration difference?",
+    "how many sems for computer science?",
+    "what is the sem structure in btech data science?",
+    "cse ai/ml sem pattern?",
+    "civil dept sem wise duration?",
+    "btech mechanical total sem duration?",
+    "is mbits following semester system for btech?",
+    "sem duration is same for all branches?",
+    "how long is btech course and how many sem?",
+    "how many sems total in electrical engineering?",
+    "semester-wise study in mbits cse?",
+    "how many sems are in 4 year btech mbits?",
+    "btech cse in mbits has 8 sem?",
+    "can you tell semester system in btech course?",
+    "sem wise subjects in mbits?",
+    "are there 2 sem in a year in mbits?",
+    "semester pattern in mbits engineering course?",
+    "do btech students write exams every sem?",
+    "how many sems to complete mbits btech course?",
+    "sem duration and course length in mbits?",
+    "course timeline in sem for btech cse ds?",
+    "total sem count for btech computer science ai ml?",
+    "civil engineering mbits sem details?",
+    "btech ece branch how many semester?",
+    "how many months per semester in mbits?",
+    "sem time length in mbits mech dept?",
+    "semester system mbits btech all departments?",
+    "is sem wise exam followed for all btech branches?",
+    "do cse students have sem wise projects?",
+    "how many sems for lateral entry students?",
+    "how many sem after 3rd sem if joined lateral entry?",
+    "how many more sems left if I’m in 5th semester?",
+    "total duration from sem 1 to sem 8?",
+    "is sem based system same for management and govt quota?"
+    ],
+    "responses": [
+       "The B.Tech program at MBITS is a full-time 4-year course divided into 8 semesters, with each academic year consisting of 2 semesters. The institute follows a semester-based examination system under Mahatma Gandhi University, and each semester typically spans around 6 months including classes, internal assessments, and university exams."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "BtechSem",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+  "intent":"Admission",
+  "text":[
+    "how to get admission in btech mbits?",
+  "btech admission process mbits",
+  "can i join mbits btech directly?",
+  "how do i apply for btech course?",
+  "is entrance exam needed for btech admission?",
+  "which entrance exam for mbits btech?",
+  "keam needed for btech?",
+  "can i join mbits btech without keam?",
+  "how to apply online for btech admission?",
+  "what is the admission procedure for cse in mbits?",
+  "mbits civil btech admission details?",
+  "mechanical btech admission steps?",
+  "eee admission 2025 btech mbits?",
+  "admission for ece btech course?",
+  "can i get direct admission in btech cse?",
+  "what documents needed for btech admission?",
+  "how to apply for btech after 12th?",
+  "can diploma students apply for btech mbits?",
+  "what is lateral entry admission process in mbits?",
+  "when does btech admission start in mbits?",
+  "cse data science btech admission query",
+  "mbits cse ai ml admission form available?",
+  "how to get admission in data science btech?",
+  "which branch best for admission in mbits btech?",
+  "does mbits have management quota for btech?",
+  "how many seats available for cse btech?",
+  "i want to apply for civil engineering admission",
+  "can i join eee without keam?",
+  "how much rank needed in keam for mbits btech?",
+  "btech registration date mbits?",
+  "is there online form for btech 2025 batch?",
+  "what is the selection process for mbits engineering?",
+  "is there any entrance interview for btech?",
+  "application fee for mbits btech?",
+  "btech admission requirements for cse?",
+  "what is eligibility for data science btech mbits?",
+  "i want admission in ai ml btech program",
+  "how many total seats in btech mbits?",
+  "branchwise seat allotment mbits btech?",
+  "how to get seat in computer science mbits?",
+  "cse btech admission eligibility and process?",
+  "can i change my branch after btech admission?",
+  "civil engineering btech admission doubts",
+  "mechanical engg how to join mbits?",
+  "eee btech admission process full detail",
+  "when is last date to apply btech mbits?",
+  "can i get admission in btech with 50% marks?",
+  "who to contact for btech admissions?",
+  "does mbits offer spot admission for btech?",
+  "admission helpline number for btech mbits?",
+  "how to reserve seat in mbits btech?",
+  "how to confirm admission in mbits engineering?",
+  "ai ml cse admission process after keam",
+  "can i get mbits btech admission without counselling?",
+  "what is procedure to apply for lateral entry in mbits?",
+  "btech admission eligibility for pcb students?",
+  "can i join mbits btech with biology?",
+  "when mbits issue admission list for btech?",
+  "where to submit documents for btech admission?",
+  "is admission open in mbits for btech now?",
+  "admission form for 2025 btech batch mbits",
+  "need help for mbits engineering application",
+  "can i apply now for civil btech admission?",
+  "i got keam rank, how to take mbits seat?",
+  "do they consider +2 marks for btech admission?",
+  "i have 48% can i apply for btech mbits?",
+  "where is admission office of mbits?",
+  "can i get admission in ece with low marks?",
+  "want to apply for data science btech course",
+  "can i do btech in mbits if i failed chemistry?",
+  "step by step btech admission guide mbits",
+  "how to join mbits btech from other state?",
+  "how to get admission in btech cse with management quota?",
+  "btech admission contact number of mbits?",
+  "ai ml cse course how to apply in mbits?",
+  "do i need to submit original certificates for btech admission?",
+  "btech admission details please share",
+  "i want to take admission in mbits btech"
+  ],"responses": [
+       "Admission for B.Tech at MBITS is now open for all branches—Civil, Mechanical, EEE, ECE, CSE, CSE (Data Science), and CSE (AI & ML). To apply, visit the official admission page, follow the online application steps, and upload your 12th marks and KEAM rank (if applicable). The admission hotline is always there for help: +91 9061063801 or 0485 2837801. You can also email your queries to admission@mbits.ac.in or info@mbits.ac.in. If you prefer direct help, head to the admission office at Nellimattom P.O, Kothamangalam, Ernakulam, Kerala – PIN 686693, open Monday to Friday 9 AM–5 PM. You can even WhatsApp the same number +91 9061063801 for fast assistance. For all admission details, application forms, and deadlines, check the MBITS B.Tech admission page."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Admission",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "Btechcivilhod",
+    "text": [
+    "Who is HOD of civil dept?",
+    "Where is civil HOD in mbits?",
+    "civil dept hod",
+    "name of civil hod?",
+    "who is the hod of btech civil?",
+    "who is civil engg dept head?",
+    "can u tell hod name of civil?",
+    "hod of civil engineering in mbits?",
+    "civil hod name pls?",
+    "civil branch head in mbits?",
+    "mbits civil hod info?",
+    "who is the head of civil engineering?",
+    "name of btech civil hod in mbits?",
+    "who manage the civil dept?",
+    "is there separate hod for civil?",
+    "which teacher is civil hod in mbits?",
+    "need hod name for btech civil department",
+    "can i get civil hod contact?",
+    "head of department name for civil course?",
+    "who is the faculty incharge of civil?",
+    "civil hod"
+    ],
+    "responses": [
+       "All engineering departments have only one hod MANJU GEORGE Contact:9605477010 Mail:manju@mbits.ac.in , hodce@mbits.ac.in"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "BtechcivilHod",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "Civil",
+    "text": [
+       "what is btech civil in mbits?",
+        "civil engineering btech details pls?",
+        "how many seats for civil in mbits?",
+        "mbits civil branch good or not?",
+        "can u tell about btech civil course?",
+        "is civil engineering available in mbits?",
+        "what subjects in btech civil?",
+        "how many seats in civil department mbits?",
+        "btech civil fee structure?",
+        "civil engg btech info in mbits?",
+        "is btech civil a 4 year course?",
+        "is there lateral entry for civil in mbits?",
+        "civil btech eligibility mbits?",
+        "scope of civil engineering from mbits?",
+        "can i join btech civil after diploma?",
+        "does mbits have civil specialization?",
+        "placement for civil engg in mbits?",
+        "btech civil hod name?",
+        "how many semester in btech civil?",
+        "mbits civil branch approved by which university?",
+        "civil",
+        "btech civil",
+        "mbits civil",
+        "civil engineering at mbits"
+    ],
+    "responses": [
+       "At MBITS, the Civil Engineering department is led by Associate Professor and HOD Manju George, who holds an M.Tech in Computer-Aided Structural Engineering and has been teaching there since 2009; she specializes in areas like structural design, natural hazards, and theory of plates and shells. The department also includes a highly qualified team: Dr. Solly George (Professor and Dean P&D) with a Ph.D. in Environmental Geotechnics; Veena Jayakrishnan (Assistant Professor) in Geotechnical Engineering pursuing her Ph.D.; Vidya Vijayan, Deepthy Varkey, Uma K, Jobil Varghese, Geethu Shanmughan, Anna M Thomas, Rinku Kuriakose, Basil Eldhose, and Kailas G Nath, all Assistant Professors with expertise spanning structural engineering, environmental engineering, transportation engineering, and more. Technical support is provided by skilled instructors such as Soji P Varghese, Deepa K Mathai, Bindhu Jose, Sreeja Narayanan, and Lovely M A. Together, they nurture students through teaching, mentoring, and hands-on learning."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Civil",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "mech",
+    "text": [
+        "what is btech mechanical in mbits?",
+        "tell me about mechanical engineering course?",
+        "how many seats in mechanical branch?",
+        "mbits mechanical engineering fee?",
+        "is mechanical branch good for jobs?",
+        "what subjects in mechanical btech?",
+        "is btech mechanical 4 years?",
+        "can i join mechanical after diploma?",
+        "what is scope of mechanical engineering?",
+        "how many semester in mechanical engg?",
+        "mechanical engineering placement details?",
+        "who is the hod of mechanical in mbits?",
+        "mbits mechanical engineering syllabus?",
+        "can u give info on mechanical branch?",
+        "mechanical btech course duration?",
+        "is lateral entry available for mechanical?",
+        "what are the career options after mechanical?",
+        "mechanical engineering labs in mbits?",
+        "mechanical engineering faculty details?",
+        "how is mechanical branch in mbits?",
+        "mech"
+    ],
+    "responses": [
+         "The Mechanical Engineering department at MBITS offers a 4-year B.Tech program affiliated with APJ Abdul Kalam Technological University and approved by AICTE. The curriculum covers core subjects like thermodynamics, mechanics, materials science, and manufacturing processes, along with advanced topics such as robotics, mechatronics, and computational fluid dynamics. The department boasts a team of experienced faculty members dedicated to providing quality education and fostering research activities. Students have access to state-of-the-art laboratories, including CAD/CAM, materials science, manufacturing, robotics, thermal engineering, and advanced machine tools labs. The department emphasizes innovative teaching methods like hands-on laboratory experiments, simulation software, industry visits, guest lectures, project-based learning, and online resources. Co-curricular activities such as seminars, workshops, industrial visits, and internships are organized to expose students to real-world engineering problems and prepare them for future challenges. The department's commitment to excellence ensures that students receive a comprehensive education in mechanical engineering, preparing them for successful careers in the field."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "mech",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "Mechhod",
+    "text": [
+       "who is hod of mech?",
+  "mech hod name",
+  "can i get mechanical hod name?",
+  "hod of mechanical in mbits?",
+  "who is the mechanical dept hod?",
+  "mbits mech head of department",
+  "name of hod mech dept?",
+  "mechanical hod mbits?",
+  "mbits hod mechanical?",
+  "head of mech department in mbits",
+  "mechnical engg hod details?",
+  "who is incharge of mechanical dept?",
+  "who is faculty head of mech dept?",
+  "can u tell mech hod name?",
+  "mech h.o.d mbits?",
+  "hod name for btech mechanical?",
+  "hod mech?",
+  "who is the prof in charge of mechanical?",
+  "is there a separate hod for mechanical?",
+  "hod of btech mech?",
+  "mech dept head name mbits?",
+  "mechanical head teacher mbits?",
+  "mchnical dept incharge?",
+  "mbits mechanical dpt hod name",
+  "hod of mbits mechanical?",
+  "department head for mech course?",
+  "name of the mechanical engineering hod?",
+  "hod name of mech branch in mbits?",
+  "btech mech hod info?",
+  "who takes care of mech dept?"
+    ],
+    "responses": [
+       "The Head of the Mechanical Engineering Department at MBITS is NEDHEESH ELDHO BABY. contact:9846655109 Mail:hodme@mbits.ac.in",
+      "NEDHEESH ELDHO BABY is the HOD of Mechanical Engineering in MBITS. contact:9846655109 Mail:hodme@mbits.ac.in",
+      "For Mechanical Engineering, the department HOD is NEDHEESH ELDHO BABY. contact:9846655109 Mail:hodme@mbits.ac.in",
+      "Mechanical Engineering department is headed by NEDHEESH ELDHO BABY at MBITS. contact:9846655109 Mail:hodme@mbits.ac.in",
+      "The Mechanical Engineering HOD in MBITS is Mr. NEDHEESH ELDHO BABY. contact:9846655109 Mail:hodme@mbits.ac.in"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "MechHOD",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "EEE",
+    "text": [
+       "what is btech electrical and electronics?",
+      "tell me about eee course in mbits?",
+      "how many seats for electrical branch?",
+      "is eee good for jobs?",
+      "what subjects in electrical and electronics?",
+      "how long is btech eee?",
+      "can i join eee after diploma?",
+      "eee placement details in mbits?",
+      "who is the hod of electrical dept?",
+      "what labs are there in eee?",
+      "eee syllabus in mbits?",
+      "is lateral entry allowed in eee?",
+      "career options after electrical engineering?",
+      "how many semesters in eee btech?",
+      "mbits electrical engineering fee?",
+      "eee branch scope?",
+      "is eee tough compared to other branches?",
+      "eee faculty details mbits?",
+      "how is electrical and electronics branch at mbits?",
+      "can you explain about eee course?",
+      "about eee",
+      "EEE"
+    ],
+    "responses": [
+       "The Electrical and Electronics Engineering (EEE) department at MBITS was established in 2010 with a vision of 'Excellence in Education and Research in Energy Areas'. The department aims to develop competent engineers capable of facing various challenges required by employers and society. It has an efficient team of well-qualified and committed faculty members and experienced technical staff. The department emphasizes hands-on experience by incorporating state-of-the-art machinery and equipment in the lab. Students are exposed to frontier technologies and industries directly through student chapters of professional bodies like IEI and IEEE. The department also has a dedicated R&D wing for the development of renewable energy-based Electric Vehicles (EVs). Notably, a retrofitted solar-powered car project received special appreciation from Dr. S. Somanath, Chairman of the Indian Space Research Organization (ISRO). The department's students have been placed in various software industries and core electrical companies, with some becoming entrepreneurs. For more information, you can visit the official website: https://mbits.ac.in/academics/departments/electrical-electronics-engineering/"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "EEE",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "EEEhod",
+    "text": [
+       "who is hod of eee?",
+        "eee hod name",
+        "can you tell me who is the head of electrical and electronics engineering dept?",
+        "head of department for electrical and electronics engineering?",
+        "who is the eee department hod in mbits?",
+        "eee hod mbits?",
+        "name of hod for electrical and electronics engineering?",
+        "eee hod name plz",
+        "who is the prof in charge of electrical and electronics engineering?",
+        "electrical and electronics engineering dept head mbits?",
+        "eee department hod name?",
+        "eee hod details?",
+        "who leads the eee department?",
+        "eee dept head name mbits?",
+        "eee hod info?",
+        "who is the eee hod now?",
+        "eee hod name in mbits?",
+        "eee hod contact?",
+        "eee hod sir name?",
+        "eee hod incharge?",
+        "what is the full form of eee?",
+        "who is hod of electrical and electronics engineering?",
+        "tell me the hod of electrical and electronics engg department",
+        "eee hod full form and name?",
+        "who is the hod of eee branch?",
+        "who heads electrical and electronics engineering dept?"
+    ],
+    "responses": [
+       "The Head of the Electrical and Electronics Engineering (EEE) Department at MBITS is Dr. ARUN ELDHO ALIAS.",
+        "Dr. ARUN ELDHO ALIAS is the HOD of EEE in MBITS.",
+        "For the Electrical and Electronics Engineering department, the HOD is Dr. ARUN ELDHO ALIAS.",
+        "You can contact the EEE HOD, Dr. ARUN ELDHO ALIAS, at 9846789998 or email at aruneldho@mbits.ac.in.",
+        "The EEE department at MBITS is headed by Dr. ARUN ELDHO ALIAS. Phone: 9846789998, Email: aruneldho@mbits.ac.in.",
+        "If you want to reach the HOD of Electrical and Electronics Engineering, contact Dr. ARUN ELDHO ALIAS via 9846789998 or aruneldho@mbits.ac.in."
+          ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "EEEHOD",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "ElectronicsCom",
+    "text": [
+       "what is electronics and communication engineering?",
+    "tell me about ece course in mbits",
+    "is ece available in mbits?",
+    "how many seats in ece department?",
+    "what do we study in ece?",
+    "ece branch good or not?",
+    "how many years is btech ece?",
+    "what is the scope of ece after btech?",
+    "can i join ece after diploma?",
+    "ece placement details in mbits?",
+    "who is the hod of ece in mbits?",
+    "what are the labs for ece?",
+    "btech ece course duration?",
+    "is lateral entry available for ece?",
+    "mbits ece fees and admission details?",
+    "career options after electronics and comm?",
+    "how many sem in btech ece?",
+    "ece branch is tough or easy?",
+    "can you give info about ece course in mbits?"
+    ],
+    "responses": [
+       "The Electronics & Communication Engineering (ECE) department at MBITS, accredited by the NBA for 2024–2027, started in 2009 with 60 initial seats and now offers a 4‑year B.Tech program with 30 seats under APJ Abdul Kalam Technological University. The department is known for its strong academics and practical training, featuring advanced labs like Electronics Workshop, Communication Lab, Microprocessor & Microcontroller Lab, Integrated Circuits Lab, Systems Lab, Project Labs I & II, and an industry-supported lab in collaboration with He‑Man Auto Robo Park and NeST Digital—complete with real-time debugging tools like SEMATIC STEP 7 and MPLAB ICD 5. The curriculum includes modern core and advanced subjects like IoT, VLSI, Digital Signal Processing, Optical Fibre Communication, Antennas, Biomedical Engineering, Real-Time Operating Systems, and Nano Electronics. The department uses innovative teaching methods such as flipped classrooms, blended learning, peer learning, project-based learning, and Virtual Labs to make learning interactive and effective. Its vibrant student association Siehz drives activities like alumni talks, workshops, seminars, quizzes, and project showcases. Students have worked on impactful projects like a water‑overflow detection system (ARISE startup), ECG rescue, IoT-based tracking systems, and more, often under funded programs and industrial mentorship. The department also organizes major events such as the SPICE 2K24 international conference and maintains strong industry connections and internships. Alumni are placed in top companies like Infosys, TCS, UST, VVDN, and many pursue higher studies or careers abroad. In essence, MBITS ECE combines strong theoretical foundations, hands-on exposure, and industry readiness in an engaging, supportive environment."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "ElectronicCom",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "Communicationhod",
+    "text": [
+      "who is hod of electronics and communication engineering?",
+      "electronics and communication engg hod name",
+      "who is the head of electronics communication dept?",
+      "tell me hod name for electronics and communication engineering",
+      "who leads the electronics and communication department?",
+      "electronics communication hod mbits?",
+      "name of hod for electronics & communication engineering?",
+      "electronics and communication engg hod plz",
+      "hod of electronics and communication engineering department?",
+      "who is the prof incharge of electronics communication?",
+      "electronics & communication hod details?",
+      "electronics and communication engineering dept head?",
+      "who is the hod now for electronics and communication?",
+      "electronics & communication engg hod contact?",
+      "can u tell me electronics communication dept hod?",
+      "electronics communication head name mbits?",
+      "who is the hod of ece dept?",
+      "electronics and communication hod sir?",
+      "electronics & communication hod info?",
+      "hod name of electronics communication engineering?"
+    ],
+    "responses": [
+       "The Head of the Department for Electronics & Communication Engineering (ECE) at MBITS is Prof. JOHNY JOSEPH. You can reach him at 9447346191 or via email at hodece@mbits.ac.in for any academic or department-related queries.",
+      "Prof. JOHNY JOSEPH is the HOD of Electronics and Communication Engineering at MBITS. For more details or assistance, you can contact him on 9447346191 or email hodece@mbits.ac.in."
+
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "CommunicationHOD",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "cse",
+    "text": [
+       "what is computer science and engineering?",
+      "tell me about cse course in mbits",
+      "how many seats for cse in mbits?",
+      "cse branch good for placements?",
+      "what do we learn in computer science?",
+      "is cse available in mbits?",
+      "can i join cse after diploma?",
+      "how long is btech in cse?",
+      "what is the syllabus for cse?",
+      "mbits cse fee structure?",
+      "what labs are there in cse department?",
+      "cse course duration in mbits?",
+      "cse or data science which is better?",
+      "what are the career options after btech cse?",
+      "is lateral entry available in cse?",
+      "who is the hod of cse department?",
+      "placement record of cse in mbits?",
+      "can you give info about btech cse?",
+      "is cse tough or easy?",
+      "how many semester in cse btech?",
+      "cse"
+    ],
+    "responses": [
+         "At MBITS, the Computer Science & Engineering (CSE) department is NBA‑accredited for 2024–2027 and offers three distinct B.Tech tracks—CSE, CSE (Data Science), and CSE (Artificial Intelligence & Machine Learning)—with respective annual intakes of 180, 60, and 60 students, each spanning 4 years. The department balances strong academics and practical learning, boasting computer labs with over 400 PCs, licensed software, and experienced technical staff. Under the guidance of dedicated and qualified faculty, students gain both theoretical knowledge and hands‑on experience. The active departmental associations—CYBORGS and the CSI student chapter—encourage peer learning, leadership, project engagement, and event organization. The department’s consistent improvements in academics, placements, and consultancy projects reflect its effectiveness. Overall, the CSE program emphasizes industry‑relevant training, research orientation, and all‑round development for future-ready professionals."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Cse",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "csehod",
+    "text": [
+       "who is hod of cse?",
+  "cse hod name?",
+  "cse head of department?",
+  "hod name for computer science?",
+  "who is the hod of computer science and engineering?",
+  "cse dept hod in mbits?",
+  "c.s.e hod name pls?",
+  "who is cse department head?",
+  "computer science dept hod?",
+  "computer science and engg hod mbits?",
+  "who is the computer science hod?",
+  "head of cse department in mbits?",
+  "mbits cse hod contact?",
+  "cse hod info please?",
+  "can you tell me who is hod for computer science and engineering?",
+  "name of computer science and engineering hod?",
+  "hod for cs dept?",
+  "cse hod sir name?",
+  "who is the prof in charge of cse?",
+  "hod of btech cse?",
+  "mbits cse incharge?",
+  "name of computer engg hod?",
+  "who is cse head?",
+  "hod of computer science dept?",
+  "who leads computer science and engineering at mbits?",
+  "hod of cs engg?"
+    ],
+    "responses": [
+       "The Head of the Department for Computer Science and Engineering (CSE) at MBITS is Prof. BONIA JOSE. You can contact her at 9496449702 or email at bonia@mbits.ac.in for any academic or department-related queries.",
+      "Prof. BONIA JOSE is the HOD of Computer Science and Engineering (CSE) at MBITS. If you have any questions or need help regarding the CSE department, feel free to call 9496449702 or email bonia@mbits.ac.in."
+
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "CseHOD",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "cseData",
+    "text": [
+       "what is cse data science?",
+      "btech data since course in mbits?",
+      "how many seats for data science in mbits?",
+      "cse with data science is good?",
+      "can i join cse data sciense after diploma?",
+      "mbits data science fees?",
+      "is data science tough?",
+      "what do we study in data science course?",
+      "data science btech duration?",
+      "any placement for data science branch?",
+      "cse (ds) syllabus in mbits?",
+      "who is the hod of cse data science?",
+      "how many semester in data scince cse?",
+      "is data scince same as cse?",
+      "is data science avilable in mbits?",
+      "btech cse data branch good or not?",
+      "cse data science faculty details?",
+      "can u give info about computer science data scince?",
+      "is lateral entry allowed in data science?",
+      "difference between cse and data science in mbits?",
+      "cse Data Science"
+    ],
+    "responses": [
+         "The B.Tech in Computer Science & Engineering (Data Science) at MBITS is a 4‑year full-time program with an annual intake of 60 students, launched in 2023 and approved by AICTE under APJ Abdul Kalam Technological University. The department equips students with modern data science skills — from data collection, cleaning, integration, and storage (using SQL/NoSQL/cloud solutions), to exploratory data analysis and visualization with tools like Tableau and matplotlib, machine learning techniques (supervised, unsupervised, reinforcement learning), and big data technologies such as Hadoop, Spark, Kafka, and Flink. The department has shared infrastructure with over 400 PCs, licensed software, and technically skilled support staff. Students also benefit from project guidance, co-curricular activities under CYBORGS and CSI chapters, and improved academics, placements, and consultancy projects."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "CseData",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "cseDatahod",
+    "text": [
+       "who is hod of cse data science?",
+  "cse data science hod name?",
+  "head of data science department?",
+  "who is the hod of computer science and engineering data science?",
+  "hod for cse ds in mbits?",
+  "name of hod in cse data science?",
+  "c.s.e data sci hod?",
+  "cse data science dept head?",
+  "data science hod mbits?",
+  "who leads the data science branch?",
+  "hod of data science cse?",
+  "professor incharge of data science?",
+  "computer science data science hod?",
+  "mbits data science hod name?",
+  "who is cs data science hod?",
+  "hod of computer science and data science?",
+  "data sci dept hod?",
+  "hod for cs with data science?",
+  "name of hod for cse (data science)?",
+  "who is the dept head of cse ds?"
+    ],
+    "responses": [
+        "The Head of the Department for Computer Science and Engineering (CSE) at MBITS is Prof. BONIA JOSE. You can contact her at 9496449702 or email at bonia@mbits.ac.in for any academic or department-related queries.",
+      "Prof. BONIA JOSE is the HOD of Computer Science and Engineering (CSE) at MBITS. If you have any questions or need help regarding the CSE department, feel free to call 9496449702 or email bonia@mbits.ac.in."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "CseDataHOD",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "cseAlMl",
+    "text": [
+       "what is cse ai and ml?",
+      "ai ml course in mbits?",
+      "how many seat in ai and ml course?",
+      "is ai & ml good course?",
+      "cs ai ml course info pls",
+      "how long is ai ml btech?",
+      "mbits ai ml fees?",
+      "is ai ml tough?",
+      "can i join ai and ml after 12th?",
+      "what will we study in ai and ml?",
+      "ai and ml syllabus in mbits?",
+      "who is hod of ai ml course?",
+      "does mbits have ai and ml branch?",
+      "difference between cse and ai ml?",
+      "any placements for ai and ml branch?",
+      "is lateral entry allowed in ai ml?",
+      "ai ml branch good for future?",
+      "btech cse with ai and ml full info?",
+      "cse artificial inteligence and ml details?",
+      "can u tell about ai ml in mbits?"
+    ],
+    "responses": [
+         "The CSE (AI & ML) branch at MBITS started fairly recently in 2025 and is a full-time 4-year B.Tech program under KTU with AICTE approval. This specialization covers core programming, data structures, algorithms, linear algebra, probability & stats, and dives deep into machine learning, deep learning, NLP, computer vision, reinforcement learning, robotics, ethical AI, and data science too. You get a good mix of theory and practicals, learning to build and deploy models, handle big datasets, and work on real projects. The labs, teaching, and student support are top-notch, helping you become ready for jobs as AI Engineers, ML Scientists, Data Scientists, or even research and higher studies."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "CseAiMl",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "cseAihod",
+    "text": [
+       "who is hod of cse ai ml?",
+  "hod name for cse artificial intelligence and machine learning?",
+  "cse ai & ml dept hod?",
+  "head of cse ai ml department?",
+  "mbits ai ml hod name?",
+  "cse ai ml hod contact?",
+  "who is incharge of ai and ml course?",
+  "hod for computer science ai ml?",
+  "artificial intelligence and machine learning hod?",
+  "name of hod for cse ai and machine learning?",
+  "ai ml dept head?",
+  "hod of ai ml dept in mbits?",
+  "mbits hod of artificial intelligence and machine learning?",
+  "professor leading cse ai ml?",
+  "can u tell me hod for cse ai ml?",
+  "ai & ml department head?",
+  "hod of cs ai and ml?",
+  "who is the hod for ai and ml specialization in cse?",
+  "head of artificial intelligence and machine learning branch?",
+  "hod name of cs ai ml?"
+    ],
+    "responses": [
+       "The Head of the Department for Computer Science and Engineering (CSE) at MBITS is Prof. BONIA JOSE. You can contact her at 9496449702 or email at bonia@mbits.ac.in for any academic or department-related queries.",
+      "Prof. BONIA JOSE is the HOD of Computer Science and Engineering (CSE) at MBITS. If you have any questions or need help regarding the CSE department, feel free to call 9496449702 or email bonia@mbits.ac.in."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "CseAi/MlHOD",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "BCA",
+    "text": [
+       "what is bca course about?",
+  "can u tell me everything about bca?",
+  "bca full info pls",
+  "i want to know full details of bca",
+  "overview of bca course?",
+  "bca course details in mbits?",
+  "what subjects are there in bca?",
+  "is bca good course for me?",
+  "how many years for bca?",
+  "what jobs after bca?",
+  "bca course explain cheyyumo?",
+  "what do we study in bca?",
+  "b.c.a course syllabus and all?",
+  "bca admission details pls?",
+  "can i join bca after +2?",
+  "how is bca different from btech?",
+  "what are the specializations in bca?",
+  "can i do bca without maths?",
+  "bca ke syllabus enna?",
+  "bca is ug or pg?",
+  "bca course ennaanu?",
+  "subjects in bca every year?",
+  "bca placements available?",
+  "is there coding in bca?",
+  "does bca have internship?",
+  "what after bca?",
+  "bca course structure pls?",
+  "can i do mca after bca?"
+    ],
+    "responses": [
+       
+  "The BCA (Bachelor of Computer Applications) at MBITS is a four‑year full‑time program, affiliated with APJ Abdul Kalam Technological University and approved by AICTE. It aims to give you solid knowledge in areas like programming, computer architecture, application software, operating systems, artificial intelligence, and cyber security. The annual intake is 60 students, featuring a careful admission process. MBITS has a clear vision to become a global leader in computer applications education and a mission to equip graduates with advanced skills, ethical awareness, and research aptitude. Interested students can request a callback through the department page or contact the admission hotline +91 9061063801 / 0485 2837801",
+
+  "Looking for a full rundown on BCA at MBITS? It’s a full-time, four-year degree under KTU, approved by AICTE, with only 60 students per batch. What’s cool is the curriculum covers both theory and cutting-edge topics like AI and cyber security. MBITS’s vision is all about being a global leader in computer applications, and its mission focuses on innovative, ethical, and adaptive IT professionals. Want more info or help with admission? Visit the BCA department page, request a callback, or ring up the admission team at +91 9061063801 or 0485 2837801. ",
+
+  "MBITS offers a four-year full-time BCA program with an annual intake of 60, affiliated with APJ Abdul Kalam Technological University and AICTE-approved. The program covers essential subjects—from programming and systems to AI and cyber security—geared to groom you into IT-ready professionals. The department vision is to lead globally in computer applications education, while its mission emphasizes advanced knowledge, ethical computing, and lifelong learning. For admission details, you can explore the BCA page, ask for a callback, or call the admission hotline at +91 9061063801 / 0485 2837801."
+
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "BCA",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "BCASem",
+    "text": [
+       "how long is the bca course?",
+  "bca course duration plss?",
+  "how many years is bca?",
+  "bca is 3 year or 4 year?",
+  "total semesters in bca?",
+  "how many sem for bca?",
+  "bca has how many semester?",
+  "semesters in b.c.a course?",
+  "duration of bca course in mbits?",
+  "how many sems in bca?",
+  "is bca 6 sem or 8 sem?",
+  "bca total sem count?",
+  "how long does bca take to complete?",
+  "full duration of bca plz?",
+  "bca ke total semester?",
+  "bca is 4 year course?",
+  "bca total time and sem?",
+  "does bca have 3 years or 4 years?",
+  "how many parts in bca course?",
+  "bca study years and sems?"
+    ],
+    "responses": [
+       "The Bachelor of Computer Applications (BCA) program at MBITS is a full-time course lasting 3 years, divided into 6 semesters."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "BCASem",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "bcafees",
+    "text": [
+       "what is the bca fees in mbits?",
+  "how much fee for bca course?",
+  "bca fee per year pls",
+  "total fees for 3 year bca?",
+  "is bca fees 60000 per year?",
+  "how much to pay every year for bca?",
+  "bca yearly fees details",
+  "can i know the tuition fee for bca?",
+  "fees structure of bca in mbits?",
+  "mbits bca course fees info?",
+  "how much money needed for full bca?",
+  "bca fee for first sem?",
+  "is hostel fee included in bca fees?",
+  "any extra fees other than tuition for bca?",
+  "mbits total bca cost with 3 year fees?",
+  "how much is semester fees in bca?",
+  "is there any fee concession for bca?",
+  "bca fees in government quota and management quota?",
+  "do management students pay more bca fees?",
+  "bca fees"
+    ],
+    "responses": [
+       "The total fee for BCA at MBITS is ₹2,40,000 for 3 years, which means ₹60,000 per year. This includes tuition fees but does not mention hostel or other additional fees. The course is full-time and affiliated with APJ Abdul Kalam Technological University. For exact details on extra fees or concessions, you can contact MBITS directly."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Bcafees",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "bcaeligibility",
+    "text": [
+       "what is bca eligibility?",
+  "can i do bca after 12th?",
+  "bca admission criteria?",
+  "eligibility for bca course?",
+  "need maths for bca?",
+  "am i eligible for bca?",
+  "bca minimum qualification?",
+  "which subjects need for bca?",
+  "can i join bca without maths?",
+  "what is the minimum marks for bca?",
+  "bca admission requirements?",
+  "can a student with pcm join bca?",
+  "is maths compulsory for bca?",
+  "i passed 12th, can i do bca?",
+  "bca course eligibility in mbits?",
+  "can i take bca after 10+2?",
+  "what is qualification needed for bca?",
+  "bca eligibility details pls?",
+  "how to get admission in bca?",
+  "bca eligibility for commerce student?"
+    ],
+    "responses": [
+       "To join BCA at MBITS, you need to have passed 10+2 or equivalent exam with Mathematics as a compulsory subject. You should be an Indian citizen. These are the main academic and citizenship criteria for eligibility."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "bcaeligibily",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "bcaintake",
+    "text": [
+       "how many seats in bca?",
+    "bca intake details?",
+    "what is the strength of bca?",
+    "how many students take admission in bca?",
+    "bca course capacity?",
+    "bca seat availability?",
+    "total seats for bca in mbits?",
+    "bca student intake number?",
+    "bca admission strength?",
+    "how many seats open for bca?",
+    "bca max students?",
+    "bca course strength pls?",
+    "bca batch size?",
+    "how many students can join bca?",
+    "bca seat count?"
+    ],
+    "responses": [
+       "BCA total seats in MBITS is 60 per year. The course is AICTE approved and affiliated with APJ Abdul Kalam Technological University, Thiruvananthapuram. Admission is merit based with online application, counseling and document verification. For more details visit https://mbits.ac.in/academics/programs-offered/bca/"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Bcaintake",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "bcaAddmission",
+    "text": [
+       "how to apply for bca?",
+    "what is the admission process for bca?",
+    "bca admission step by step?",
+    "how can i get admission in bca?",
+    "what's the procedure to join bca?",
+    "bca admision process mbits?",
+    "how admission done for bca?",
+    "online apply for bca?",
+    "do i need to attend any entrance for bca?",
+    "bca application process?",
+    "is there counselling for bca admission?",
+    "how do i join bca course?",
+    "bca registration process?",
+    "need info about bca admission?",
+    "can i apply bca through merit?",
+    "documents needed for bca admission process?",
+    "is interview required for bca admission?",
+    "how bca selection done?",
+    "bca admission form link?",
+    "is mbits bca admission online?"
+    ],
+    "responses": [
+       "The admission process for BCA at MBITS is fully online and merit-based. You need to submit your application through the official MBITS BCA admission link: https://mbits.ac.in/academics/programs-offered/bca/ Selection is based on merit, followed by counseling and original document verification. For help or questions, contact MBITS at: Phone/WhatsApp: +91 9061063801 or 0485 2837801 (Monday to Friday, 9 AM – 5 PM) Email: admission@mbits.ac.in or info@mbits.ac.in For more details visit: https://mbits.ac.in/academics/departments/bachelor-of-computer-applications/"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "BCAAdmission",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "MCA",
+    "text": [
+       "what is mca course in mbits?",
+    "can you tell me about mca?",
+    "what is the full form of mca?",
+    "mca course details?",
+    "is mca available in mbits?",
+    "how many years is mca?",
+    "mca ka duration? (removed - Hinglish)",
+    "what are subjects in mca?",
+    "what is the scope after mca?",
+    "mca specialization in mbits?",
+    "is it good to study mca in mbits?",
+    "can i do mca after bca?",
+    "what is the eligiblity for mca?",
+    "mca admission process?",
+    "fees for mca course?",
+    "do mca students get placement?",
+    "how many seats in mca at mbits?",
+    "what is the syllabus for mca?",
+    "does mbits offer mca?",
+    "can i do mca after bsc?",
+    "mca"
+    ],
+    "responses": [
+        "MCA at MBITS is a full‑time 2‑year postgraduate course (4 semesters), approved by AICTE and affiliated to APJ Abdul Kalam Technological University—launched in August 2023. Every year, 60 seats are offered. The department has well‑qualified faculty, smart classrooms, and modern labs with licensed software to keep you industry‑ready. In 2024, all first‑semester students secured paid internships and achieved a strong 93.1% pass rate. To apply, you need to follow the online admission process, and you can reach out via the admission hotline at +91 9061063801 / 0485 2837801 or email info@mbits.ac.in .",
+        "Want to know about MCA at MBITS? It’s a 2‑year AICTE‑approved program under KTU, with 60 seats per batch. The course started in August 2023, and the department is equipped with modern infrastructure, skilled faculty, and active training & placement support. S1 students got paid internships, and the course offers workshops on topics like DevOps, Python, and Cisco programming. Admissions happen online. You can contact the MBITS admission office at +91 9061063801 or 0485 2837801, or email info@mbits.ac.in ",
+        "Here’s the scoop on MCA at MBITS: It’s a two‑year (4‑semester) MCA program under KTU, AICTE‑approved, and started in 2023 with 60 students per year. The department offers modern labs, smart classrooms, and skilled staff, plus hands‑on workshops on DevOps, Python, and agile development. Every student in 2024 got a paid internship and overall pass rate was 93.1%. For admissions, apply online through the MBITS portal, and for help, call +91 9061063801 / 0485 2837801 or email info@mbits.ac.in"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "MCA",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "mcaeligibility",
+    "text": [
+       "mca eligiblity?",
+    "who can join mca?",
+    "am i eligible for mca?",
+    "mca course require maths?",
+    "what is the qualification needed for mca?",
+    "can i do mca after bca?",
+    "is bsc student allowed for mca?",
+    "mca admission ke liye kya chahiye? (removed – Hinglish)",
+    "how much percentage required for mca?",
+    "can i join mca without maths?",
+    "eligibility for mca at mbits?",
+    "what degree needed for mca?",
+    "mca eligiblity after bcom?",
+    "what are the subject requirement for mca?",
+    "is 3 year degree enough for mca?",
+    "do i need entrance exam for mca?",
+    "is computer science compulsory for mca?",
+    "mca eligiblty crietria mbits?"
+    ],
+    "responses": [
+      "To be eligible for MCA at MBITS, students must have a **Bachelor’s degree in Computer Applications (BCA)**, **Computer Science**, **IT**, or any other equivalent degree **with Mathematics as a subject in 10+2 or graduation**. The degree should be from a recognized university and the student must be **an Indian citizen**. It’s a 2-year full-time program approved by AICTE and affiliated to APJ Abdul Kalam Technological University (KTU). For details or doubts, contact MBITS admission cell: +91 9061063801 / 0485 2837801 or email info@mbits.ac.in"
+  
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Mcaeligibility",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "mcafees",
+    "text": [
+       "what is the mca fees in mbits?",
+    "mca total fees?",
+    "how much is the fee for mca course?",
+    "can u tell mca fee structure?",
+    "fees for mca per year?",
+    "mca fees per sem?",
+    "mba or mca which is cheaper?",
+    "how much total i have to pay for mca?",
+    "is there any scholarship for mca?",
+    "mca ka fees kitna hai? (removed – Hinglish)",
+    "full course fee for mca?",
+    "yearly fees for mca at mbits?",
+    "mca management quota fees?",
+    "do i need to pay all fees together for mca?",
+    "mca fees 2025 batch?",
+    "can i get fee concession in mca?",
+    "mca fees with hostel?",
+    "is mca expensive in mbits?"
+    ],
+    "responses": [
+       "The total course fee for MCA at MBITS is ₹1,20,000 for the full 2-year program. Students pay ₹60,000 per year (divided into semesters). Scholarships are available for eligible students, including merit-based and minority scholarships. For more fee-related details, you can contact the admission office at +91 9061063801 / 0485 2837801 or email info@mbits.ac.in"
+  
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Mcafees",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "mcasem",
+    "text": [
+       "how meny sems in mca?",
+    "mca semster how many?",
+    "mca duration sem or year?",
+    "mca is semster based?",
+    "how long each sem in mca?",
+    "total sem for mca?",
+    "mca sems count?",
+    "mca study sems?",
+    "how many sems in 2 year mca?",
+    "mca cours sems?",
+    "is mca divided into semesters?",
+    "mca exams in sems?",
+    "how many sems mca has?",
+    "mca semstr system?",
+    "mca semsters duration?",
+    "can u tell how many sems mca?",
+    "mca semster length?",
+    "mca sem duration time?",
+    "mca sems or years?",
+    "mca total sem count?"
+    ],
+    "responses": [
+        "MCA course in MBITS has 4 semesters. It is a 2 year full-time program, each year with 2 sems. Each semster includes exams and studies. This helps learn step by step. So, MCA is fully sem based with 4 sems total."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "mcasem",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "mcahod",
+    "text": [
+       "who is hod of mca?",
+    "mca hod name?",
+    "tell me mca hod pls",
+    "who leads mca dept?",
+    "mca head of department?",
+    "mca hod contact?",
+    "mca hod details",
+    "who is prof incharge mca?",
+    "mca hod info",
+    "mca hod number pls",
+    "mca hod email?",
+    "who is the hod of master of computer applications?",
+    "mca dept hod name?",
+    "can u tell mca hod?",
+    "mca hod sir name?",
+    "mca hod madam name?",
+    "mca hod phone no?",
+    "mca hod contact number?",
+    "mca hod mail id?"
+    ],
+    "responses": [
+       "The MCA HOD is Reshma S, who is the HOD Incharge & Assistant Professor for the Master of Computer Applications program. You can contact her at 8547991401 or via email at hodca@mbits.ac.in or reshma@mbits.ac.in."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "McaHod",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "mcastrength",
+    "text": [
+       "wat is mca student strenght",
+    "how meny students in mca",
+    "number of mca studnts",
+    "tell me mca batch strenght",
+    "mca studnt count",
+    "how many studnts r in mca",
+    "mca departmnt strenght",
+    "whats the mca studnt number",
+    "mca batch size",
+    "how much students in mca",
+    "mca students strength",
+    "studnt count in mca",
+    "mca total studnts",
+    "mca studnts enroled",
+    "mca batch strenght details",
+    "how many people in mca",
+    "mca class size",
+    "mca studnts number",
+    "tell me number of mca studnts",
+    "mca enrollmnt count"
+    ],
+    "responses": [
+      "The MCA program at Mar Baselios Institute of Technology and Science (MBITS) has an annual intake of 60 students for the full-time 2-year course."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "McaStrength",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "Mba",
+    "text": [
+       "wat is mba (master of business adminstration) pg course all abot",
+    "wat is mba pg course",
+    "what is master of business adminstration pg",
+    "how long is mba (master of business adminstration) pg program",
+    "how long mba pg last",
+    "tell me bout mba pg study",
+    "mba pg fees how much",
+    "how much fees for mba pg",
+    "how many studnts in mba pg",
+    "how meny students in mba master of business adminstration",
+    "where is mba pg classes held",
+    "can u tell me about pg mba (master of business adminstration)",
+    "mba (master of business adminstration) pg admission procedur",
+    "how to join mba pg",
+    "mba pg duration n fees",
+    "mba full form pls",
+    "mba means wat",
+    "mba stands for what",
+    "pg mba details pls",
+    "pg mba info",
+    "pg mba admition process",
+    "pg mba fees and duration",
+    "pg mba course info",
+    "pg mba intake capacity",
+    "mba fullform",
+    "whats pg mba",
+    "tell me about pg mba",
+    "pg mba seats",
+    "how many seats in mba pg",
+    "pg mba class timing",
+    "pg mba study time",
+    "pg mba colleges in mbits"
+    ],
+    "responses": [
+       "The MBA program at MBITS, launched in September 2024, aims to equip students with advanced managerial and leadership skills essential for today's dynamic business environment. The department offers a comprehensive curriculum covering various areas of business management, including finance, marketing, human resources, operations, and entrepreneurship. Students engage in real-world case studies, simulations, and internships to apply their knowledge in practical scenarios. The program emphasizes the development of essential soft skills such as leadership, communication, problem-solving, and teamwork through workshops, seminars, and guest lectures. The department is equipped with state-of-the-art classrooms and business laboratories to facilitate interactive and engaging learning experiences",
+       "MBITS's MBA program is designed to produce industry-ready professionals by providing both theoretical knowledge and practical expertise. The department boasts a team of well-qualified and experienced faculty members, along with industry professionals, who bring in-depth knowledge and diverse experiences to the classroom. Students are encouraged to participate in various technical and managerial competitions, business case challenges, and entrepreneurship development programs both within and outside the college. The program's vision is to nurture a positive campus culture and equip the younger generation to take our nation forward, while the mission focuses on imparting advanced knowledge and skills, cultivating a culture of innovation and critical thinking, and promoting sustainability and social responsibility"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Mba",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "mbaeligibility",
+    "text": [
+       "wat is mba eligibilty?",
+    "how to get admition in mba?",
+    "mba course qualify requiremnts?",
+    "can i join mba? wat marks needed?",
+    "mba eligibility criteria pls",
+    "who can apply for mba pg?",
+    "mba pg admission rules",
+    "mba pg qualify marks?",
+    "mba admission eligiblity details",
+    "mba join cheyyan pattumo?",
+    "mba degree kittan enthu vendi varum?",
+    "mba course admission eligiblity",
+    "mba apply cheyyan karyam",
+    "mba pg course keeyl eligibility",
+    "mba minimum marks for admission",
+    "mba pg course requiremnts",
+    "mba admisson qualification",
+    "mba eligibility list",
+    "mba course join rules",
+    "mba degree qualify?",
+    "how to get admission in mba?",
+    "mba course entry criteria",
+    "mba admission process",
+    "can i apply mba with any degree?",
+    "mba qualifing marks?",
+    "mba minimum eligibility?",
+    "mba pg admission requiremnts",
+    "what marks needed for mba?",
+    "mba pg apply chyyan vendi enthu?",
+    "mba join chyyan enthu vendi varum?",
+    "mba degree admission condition",
+    "mba eligiblity criteria details",
+    "mba apply rules",
+    "mba eligibility info pls",
+    "mba qualification needed",
+    "mba pg apply cheyyan athyavashyam"
+    ],
+    "responses": [
+       "To be eligible for the MBA program at MBITS, you must have a Bachelor's degree in any discipline from a recognized university. Admission is based on the KMAT Kerala entrance exam followed by counseling and document verification. The MBA program offers specializations in General Management, Marketing, Finance, Human Resources, Systems, and Operations.",
+    
+    "MBITS offers a full-time, 2-year MBA course with an intake capacity of 60 students. To apply, candidates need a Bachelor's degree in any field and must qualify in the KMAT Kerala exam. The admission process includes counseling and submission of original documents for verification.",
+    
+    "The MBA at MBITS is affiliated with APJ Abdul Kalam Technological University and requires candidates to have completed a Bachelor's degree. Admission is through the KMAT Kerala entrance test, followed by counseling. The program includes specializations like Marketing, Finance, HR, Systems, and Operations, aiming to develop strong managerial skills."
+  
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Mbaeligibility",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "mbafees",
+    "text": [
+       "How much is the MBA fees?",
+    "MBA fees structure please",
+    "Tell me the MBA course fees",
+    "MBA fees details",
+    "What is the total MBA fees?",
+    "MBA fees full information",
+    "MBA fees breakdown",
+    "Cost of MBA fees",
+    "MBA fees per year?",
+    "Total fees for MBA",
+    "MBA fees in rupees",
+    "MBA fees for two years",
+    "MBA fees payment options",
+    "Is MBA fees payable in installments?",
+    "What is the MBA course cost?",
+    "MBA fees for 2025",
+    "How much is the MBA fees amount?",
+    "MBA fees and other charges",
+    "List of MBA fees",
+    "How can I pay MBA fees?"
+    ],
+    "responses": [
+       "The total fees for the MBA program at MBITS is ₹2,00,000 for the full two-year course. The fees are usually divided into two installments of ₹1,00,000 each year. For detailed information about the fee payment process and any additional charges, you can visit the official website or contact the admissions office."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "mbafees",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "mbasem",
+    "text": [
+       "Can you tell me about the MBA semester details?",
+    "How many semesters are there in MBA?",
+    "MBA semester duration and details?",
+    "What subjects are in each MBA semester?",
+    "Tell me about MBA semester wise syllabus",
+    "MBA course semester information",
+    "MBA semester timing and schedule",
+    "How long is each MBA semester?",
+    "MBA semester breakup please",
+    "Details of MBA semesters",
+    "MBA semester structure info",
+    "MBA semester plan",
+    "MBA semester list of subjects",
+    "MBA semester wise subjects"
+    ],
+    "responses": [
+       "The MBA program at MBITS is divided into four semesters over two years. Each semester covers core and elective subjects designed to build strong managerial skills. The first two semesters focus on foundational management topics like Accounting, Marketing, Finance, Human Resources, and Organizational Behavior. The last two semesters include advanced subjects, specialization courses, and a project or internship to provide practical industry exposure. The duration of each semester is approximately six months."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "mbasem",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "mbaHod",
+    "text": [
+       "what is mba hod name",
+    "who is mba hod",
+    "mba hod name plz",
+    "tell me mba hod name",
+    "mba head of department name",
+    "who is head of mba dept",
+    "mba department hod who",
+    "mba hod contact",
+    "mba hod name and details",
+    "name of mba hod",
+    "mba hod info",
+    "mba hod pls tell",
+    "who lead mba department",
+    "mba hod sir name",
+    "mba hod mrs or mr",
+    "mba hod details plz",
+    "mba hod contact info",
+    "mba hod cell number",
+    "mba hod mail id",
+    "whos the mba hod",
+    "mba hod full name",
+    "mba hod position",
+    "mba hod person name",
+    "mba hod number",
+    "mba hod email",
+    "mba hod who is",
+    "mba hod name and phone",
+    "tell me the mba hod",
+    "mba hod name with contact",
+    "mba hod official name"
+    ],
+    "responses": [
+       "The Head of the MBA Department at MBITS is Dr. ARUN VIJAY. He is an Associate Professor and HOD for the Master of Business Administration program. Dr. Arun Vijay holds a Ph.D. in Management and joined the institute on 29th August 2024 as a regular faculty member. For any queries, you can contact him at 9447876424 or email at arunvijay@mbits.ac.in."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "MbaHod",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "Mtechcivil",
+    "text": [
+       "tell me about mtech civil",
+    "what is mtech civil course",
+    "mtech civil admission details",
+    "how long is mtech civil",
+    "mtech civil eligibility",
+    "mtech civil fees",
+    "mtech civil subjects",
+    "mtech civil syllabus",
+    "where is mtech civil offered",
+    "can i join mtech civil",
+    "mtech civil seats",
+    "mtech civil duration",
+    "mtech civil intake",
+    "mtech civil course info",
+    "mtech civil department details",
+    "mtech civil college details",
+    "mtech civil study plan",
+    "mtech civil specializations",
+    "mtech civil application process",
+    "mtech civil entrance exam",
+    "mtech civil full form"
+    ],
+    "responses": [
+       "The Department of Civil Engineering at MBITS offers an M.Tech degree in Computer Aided Structural Engineering. It is a two-year postgraduate program designed to give students advanced knowledge and skills in structural engineering.",
+    "Students in this M.Tech program have consistently achieved 100% results in university exams and have secured university ranks in the past. Graduates often find walk-in jobs in leading structural consultancy firms.",
+    "The program also provides opportunities to work with top R&D organizations and industries like VSSC-ISRO, LPSC-ISRO, CSIR-SERC, Geodesic Techniques, KITCO, TATA Advanced Materials Ltd, and Diseno Structurals, enhancing practical learning and career prospects."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Mtechcivil",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "mtechmech",
+    "text": [
+        "tell me about mtech mechanical",
+    "what is mtech mechanical course",
+    "mtech mechanical admission details",
+    "how long is mtech mechanical",
+    "mtech mechanical eligibility",
+    "mtech mechanical fees",
+    "mtech mechanical subjects",
+    "mtech mechanical syllabus",
+    "where is mtech mechanical offered",
+    "can i join mtech mechanical",
+    "mtech mechanical seats",
+    "mtech mechanical duration",
+    "mtech mechanical intake",
+    "mtech mechanical course info",
+    "mtech mechanical department details",
+    "mtech mechanical college details",
+    "mtech mechanical study plan",
+    "mtech mechanical specializations",
+    "mtech mechanical application process",
+    "mtech mechanical entrance exam",
+    "mtech mechanical full form"
+    ],
+    "responses": [
+       "The M.Tech program in Mechanical Engineering at MBITS Kothamangalam specializes in Computer Integrated Manufacturing (CIM). It is designed for students interested in manufacturing and automation, covering topics like CAD, CAM, robotics, industrial automation, advanced manufacturing processes, and production planning. The department has well-equipped labs, including CNC, CAD/CAM, and automation labs, providing hands-on experience. This program equips students with the skills needed for a successful career in manufacturing and automation."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "MtechMech",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "ugcourse",
+    "text": [
+       "what ug courses are avilable",
+    "tell me ug course names",
+    "which bachelor courses r there",
+    "i want to know about ug programs",
+    "mbits ug course list",
+    "ug degree options?",
+    "what to study in ug level",
+    "give ug course info",
+    "how many ug programs u have",
+    "what r the under graduate courses",
+    "ug course list pls",
+    "ug courses all details",
+    "what all ug degree offered",
+    "list of courses in ug",
+    "undergraduate program names",
+    "ug degree courses tell me",
+    "can u tell ug course names",
+    "ug program avalable?",
+    "courses for ug students?",
+    "what all can i study in ug",
+    "ug level courses at mbits",
+    "what r ug options in this clg",
+    "ug course list needed",
+    "which departments in ug",
+    "what r the ug level subjects",
+    "ug branch names plz",
+    "what bachelor programs u have",
+    "ug studies what are there",
+    "need ug course info"
+    ],
+    "responses": [
+       "At Mar Baselios Institute of Technology and Science (MBITS), the undergraduate (UG) courses offered include: Civil Engineering, Mechanical Engineering, Electrical & Electronics Engineering, Electronics & Communication Engineering, Computer Science and Engineering, Computer Science and Engineering (Data Science), Computer Science and Engineering (AI & ML), and Bachelor of Computer Applications (BCA)."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Ugcourse",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "pgcourse",
+    "text": [
+       "what are the pg courses?",
+    "pg course list pls",
+    "tell me about pg programs",
+    "which pg courses r there",
+    "can u tell me pg courses",
+    "what pg degrees available?",
+    "i want pg course info",
+    "pg courses in mbits?",
+    "mbits pg program names?",
+    "pg degree options tell me",
+    "pg study course list",
+    "pg programs offered?",
+    "how many pg courses r there",
+    "pg level course list pls",
+    "which pg department u have",
+    "what are post graduate courses",
+    "postgraduation courses in college?",
+    "pg programs and details pls",
+    "pg seats and subjects?",
+    "want to join pg, what r the options?"
+    ],
+    "responses": [
+       "At Mar Baselios Institute of Technology and Science (MBITS), the postgraduate (PG) courses offered are: Master of Computer Applications (MCA), Master of Business Administration (MBA), M.Tech in Civil Engineering, and M.Tech in Mechanical Engineering."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Pgcourse",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "principal",
+    "text": [
+       "what is the name of principal",
+    "whatv is the principal name",
+    "principal name",
+    "Who is college principal",
+    "Where is principal's office",
+    "principal",
+    "name of principal",
+    "who is the head of college",
+    "tell me principal name pls",
+    "principal of mbits",
+    "mbits principal name",
+    "can you tell principal name",
+    "who is the current principal",
+    "principal sir name",
+    "what is the name of principal mam or sir",
+    "who is leading the college",
+    "college principal details",
+    "name of our principal",
+    "mbits college head",
+    "principal name and post",
+    "what's the principal's full name",
+    "i want to know the principal",
+    "principal person name"
+    ],
+    "responses": [
+       "The Principal of MBITS is Dr. Thomas George. He leads with a vision that blends balanced campus life and holistic development, ensuring a nature-friendly environment where academic rigor goes hand-in-hand with personal growth. His message emphasizes value education, integrity, and continuous learning, encouraging students to exceed beyond the classroom. You can reach him at principal@mbits.ac.in or on +91‑944‑674‑5380 (Office: 0485‑2837806).",
+
+    "MBITS welcomes you under the leadership of Principal Dr. Thomas George, who believes in combining strong academic foundations with value-based and personal development. He prioritizes individual guidance and fosters a respectful learning community. You may contact him at principal@mbits.ac.in or via phone at +91‑944‑674‑5380 (Office: 0485‑2837806).",
+
+    "At the helm of MBITS is Principal Dr. Thomas George, whose philosophy centers on holistic growth in an inspiring, green campus environment. He focuses on academic excellence, value education, and discipline, supporting each student’s journey toward personal and professional success. For any queries, he's available at principal@mbits.ac.in or on +91‑944‑674‑5380 (Office: 0485‑2837806).",
+
+    "Dr. Thomas George serves as the Principal at MBITS, championing a blend of academic rigor and personal development within a campus that values nature, integrity, and individual attention. His welcoming message invites students to thrive both inside and outside the classroom. You can connect with him at principal@mbits.ac.in or call +91‑944‑674‑5380 (Office: 0485‑2837806)."
+  
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "CollegePrincipal",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "sem",
+    "text": [
+       "when is the exam?",
+    "please tell me exam dates",
+    "when will the exam start?",
+    "i want to know exam timetable",
+    "exam schedule please",
+    "academic calendar details?",
+    "when does the exam begin?",
+    "date of semester exam?",
+    "exam dates for this semester?",
+    "when is internal exam?",
+    "when is the university exam?",
+    "can you tell me the academic calendar?",
+    "i need the academic calendar",
+    "full academic schedule please",
+    "is the exam timetable released?",
+    "is exam date sheet available?",
+    "calendar of exams?",
+    "when are classes and exams?",
+    "when is model exam?",
+    "please share exam dates and calendar",
+    "next exam date?",
+    "what are the academic important dates?",
+    "tell me academic year plan",
+    "when exams will happen?",
+    "need academic year calendar"
+    ],
+    "responses": [
+       "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "AcademicCalendar",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "scholarship",
+    "text": [
+        "scholarship",
+    "Is scholarship available",
+    "scholarship engineering",
+    "scholarship it",
+    "scholarship ce",
+    "scholarship mechanical",
+    "scholarship civil",
+    "scholarship chemical",
+    "scholarship for AI/ML",
+    "available scholarships",
+    "scholarship for computer engineering",
+    "scholarship for IT engineering",
+    "scholarship for mechanical engineering",
+    "scholarship for civil engineering",
+    "scholarship for chemical engineering",
+    "list of scholarship",
+    "comps scholarship",
+    "IT scholarship",
+    "mechanical scholarship",
+    "civil scholarship",
+    "chemical scholarship",
+    "automobile scholarship",
+    "first year scholarship",
+    "second year scholarship",
+    "third year scholarship",
+    "fourth year scholarship",
+    "Is scholarship available for engineering courses at MBITS?",
+    "What scholarships are offered for mechanical engineering?",
+    "Can you tell me about scholarships for civil engineering students?",
+    "Are there any scholarships for chemical engineering?",
+    "Do you have scholarships for AI/ML and computer science courses?",
+    "What scholarships exist for IT engineering students?",
+    "Is there a scholarship for first-year engineering students?",
+    "How do scholarships work for second, third, and fourth-year students?",
+    "Can I get a list of all available scholarships at MBITS?",
+    "Do you offer merit-based scholarships or financial aid?",
+    "What are the eligibility criteria for scholarships in mechanical engineering?",
+    "Are scholarships available specifically for computer engineering?",
+    "What scholarships can I apply for if I am studying automobile engineering?",
+    "Is there any scholarship for students in the Bachelor of Computer Applications (BCA) course?",
+    "How can I apply for scholarships in chemical engineering?",
+    "What kinds of scholarship programs does MBITS have for engineering students?",
+    "Can you explain the scholarship benefits for civil engineering?",
+    "Are there scholarships for students with high KEAM ranks?",
+    "Is financial aid available for students from economically weaker sections?",
+    "How long do scholarships last during the degree program?",
+    "Who can I contact to get more details about scholarships?",
+    "Do scholarships cover all years of study or just the first year?",
+    "Is there a scholarship for students in AI & ML specialization?",
+    "Are there any government scholarships available through MBITS?",
+    "Can I get scholarship information for all UG and PG courses?",
+    "What scholarships does MBITS provide for MBA students?"
+    ],
+    "responses": [
+       
+    "At MBITS, the Merit Scholarship rewards students who rank within the top 10,000 in the KEAM exam. This scholarship grants ₹6,000 annually throughout the B.Tech course, provided students maintain eligibility. To get this scholarship, you must apply through KEAM counseling and secure the required rank. For queries, contact info@mbits.ac.in or call +91 9061063801. More info: https://mbits.ac.in/admission/scholarships/#merit. Additionally, MBITS offers the Central Sector Scholarship for students scoring above 80% in 12th standard with family income below ₹6,00,000 per year. It provides ₹1,000/month for the first three years and ₹2,000/month for the fourth and fifth years, up to five years in total. Applications must be submitted through the National Scholarship Portal. Another scholarship is the CH Muhammed Koya Scholarship, available to female students from Muslim, Latin, and converted Christian communities residing in Kerala, with a minimum 50% mark in their qualifying exams, enrolled in first-year undergraduate or higher courses in government/aided institutions or merit seats in self-financing colleges. For all scholarships, contact info@mbits.ac.in or call +91 9061063801.",
+
+    "MBITS provides a Merit Scholarship for those who rank in the top 10,000 of KEAM, offering ₹6,000 per year during the entire B.Tech program if eligibility continues. Admission through KEAM counseling is necessary. The Central Sector Scholarship supports students with over 80% in 12th standard and family income below ₹6 lakhs annually, granting ₹1,000 monthly for three years and ₹2,000 monthly for the next two years. Students must apply via the National Scholarship Portal. Moreover, the CH Muhammed Koya Scholarship aids female students from Muslim, Latin, and converted Christian communities in Kerala pursuing higher education with at least 50% marks. For all scholarship info, contact info@mbits.ac.in or +91 9061063801.",
+
+    "Students at MBITS who achieve a rank within the top 10,000 in KEAM are eligible for the Merit Scholarship, which provides ₹6,000 per year throughout the B.Tech duration, contingent on maintaining eligibility. To apply, participate in KEAM counseling. MBITS also offers the Central Sector Scholarship to students scoring above 80% in their 12th standard with parental income under ₹6,00,000 yearly. This scholarship awards ₹1,000 per month for the first three years and ₹2,000 per month for years four and five. Applications must be filed on the National Scholarship Portal. The CH Muhammed Koya Scholarship is available for female students from Muslim, Latin, and converted Christian communities in Kerala with minimum 50% marks, admitted through merit seats in government or self-financing institutions. Reach out at info@mbits.ac.in or call +91 9061063801.",
+
+    "The Merit Scholarship at MBITS is for students ranking in the top 10,000 in KEAM, giving ₹6,000 annually throughout their B.Tech course while keeping eligibility. Students must gain admission via KEAM counseling. The Central Sector Scholarship offers ₹1,000/month for the first three years and ₹2,000/month for the fourth and fifth years to students with over 80% in 12th and family income below ₹6 lakh, applied through the National Scholarship Portal. Additionally, the CH Muhammed Koya Scholarship helps female students from Kerala's Muslim, Latin, and converted Christian communities with 50%+ marks, studying under merit seats in government or aided/self-financing colleges. Contact info@mbits.ac.in or +91 9061063801 for details.",
+
+    "MBITS awards the Merit Scholarship to those who secure a KEAM rank within the top 10,000, providing ₹6,000 per year during the full B.Tech tenure with eligibility maintained. Admission through KEAM counseling is required. The Central Sector Scholarship supports students scoring 80%+ in 12th and having a family income less than ₹6 lakh annually, with benefits of ₹1,000/month for the first 3 years and ₹2,000/month for years 4 and 5. Applicants must use the National Scholarship Portal. The CH Muhammed Koya Scholarship targets female students from Muslim, Latin, and converted Christian groups residing in Kerala with minimum 50% marks in qualifying exams, admitted through merit seats in government or self-financing colleges. Contact info@mbits.ac.in or call +91 9061063801.",
+
+    "At MBITS, students ranking within the top 10,000 in KEAM receive the Merit Scholarship, which offers ₹6,000 yearly during the B.Tech program if they maintain eligibility. Application happens through KEAM counseling. The Central Sector Scholarship grants ₹1,000 per month for the first three years and ₹2,000 for the fourth and fifth years to those scoring over 80% in 12th with annual family income below ₹6,00,000, applied via National Scholarship Portal. The CH Muhammed Koya Scholarship assists female students of Muslim, Latin, and converted Christian communities in Kerala with 50% minimum marks, pursuing first-year or higher courses through merit seats. For all scholarship queries, contact info@mbits.ac.in or +91 9061063801.",
+
+    "MBITS offers the Merit Scholarship of ₹6,000 per year to KEAM top 10,000 rank holders throughout the B.Tech program, requiring admission through KEAM counseling and maintaining eligibility. The Central Sector Scholarship is for students with 80%+ in 12th and family income under ₹6 lakh, providing ₹1,000 monthly (years 1-3) and ₹2,000 monthly (years 4-5), applied via the National Scholarship Portal. The CH Muhammed Koya Scholarship benefits female students from Kerala’s Muslim, Latin, and converted Christian communities with at least 50% marks in qualifying exams, admitted through merit seats in government/aided or self-financing colleges. Contact info@mbits.ac.in or +91 9061063801 for details.",
+
+    "Merit Scholarship at MBITS rewards KEAM top 10,000 rankers with ₹6,000 per annum for the duration of B.Tech, contingent on admission through KEAM counseling and ongoing eligibility. Central Sector Scholarship offers ₹1,000/month for first 3 years and ₹2,000/month for the last 2 years to students with 80%+ in 12th and family income below ₹6 lakh, requiring application through National Scholarship Portal. CH Muhammed Koya Scholarship supports female Muslim, Latin, and converted Christian students from Kerala with 50% minimum marks in qualifying exams and admission through merit seats. For more, contact info@mbits.ac.in or call +91 9061063801.",
+
+    "The Merit Scholarship at MBITS provides ₹6,000 annually to students ranking within KEAM's top 10,000 throughout B.Tech, subject to continued eligibility and admission via KEAM counseling. Central Sector Scholarship offers ₹1,000 per month (years 1-3) and ₹2,000 per month (years 4-5) for students scoring 80%+ in 12th with family income less than ₹6 lakh, applied through the National Scholarship Portal. The CH Muhammed Koya Scholarship is for female students from Muslim, Latin, and converted Christian communities in Kerala with minimum 50% marks, admitted through merit seats in government or self-financing institutions. Contact info@mbits.ac.in or call +91 9061063801.",
+
+    "MBITS Merit Scholarship is awarded to KEAM rank holders in the top 10,000, providing ₹6,000 per year for the full B.Tech course, with admission through KEAM counseling. The Central Sector Scholarship offers ₹1,000 monthly for the first 3 years and ₹2,000 monthly for the last 2 years for students scoring above 80% in 12th and family income below ₹6,00,000, applied via National Scholarship Portal. The CH Muhammed Koya Scholarship supports Kerala-based female students from Muslim, Latin, and converted Christian communities with minimum 50% marks in qualifying exams, admitted through merit seats. For more information, contact info@mbits.ac.in or call +91 9061063801."
+  
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "ScholarshipCriteria",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "facilities",
+    "text": [
+        "what facilites are there in college",
+    "tell me about the college facilties",
+    "is there good lab facilties",
+    "does college has wifi facility",
+    "can u tell about library facilites",
+    "is hostal available in college",
+    "what sport facilites are there",
+    "does college provide transport facilties",
+    "are there any computer lab in college",
+    "tell me about canteen facilites",
+    "how is the college class room facilites",
+    "is there parking facilites in college",
+    "are medical facilties available",
+    "what all facilties we get in mbits",
+    "do college have auditorium facilites",
+    "is there good sports ground",
+    "can u tell about gym facilties",
+    "how is the sanitation facilties",
+    "does mbits provide hostel facilties",
+    "do we get internet facilties in campus",
+    "is there research lab facilites",
+    "does college provide counselling facilties",
+    "are there any cafeteria or food facilites",
+    "how is the security facilites in campus",
+    "does mbits have good computer labs",
+    "is there smart class rooms facilites",
+    "can u explain about workshop facilites",
+    "what facilites are available for students",
+    "does college have electrical power backup"
+    ],
+    "responses": [
+           "MBITS has very good lab facilities with modern equipment for all departments. The college campus has wifi so students can use internet anywhere. The library is well stocked with books and journals for all branches. Hostel facilities are available for boys and girls with safe and comfortable stay. Sports facilities include playgrounds for cricket, football, and other games. Transport is provided for students from nearby areas. There are well equipped computer labs with latest systems and software. The canteen offers hygienic and tasty food at reasonable prices. Classrooms are spacious, ventilated and have smart boards. Parking is available inside campus for students and staff. Medical facility includes first aid and tie-ups with hospitals nearby. An auditorium is available for events and seminars. Gym facilities are provided to keep students fit. Sanitation and cleanliness are maintained well. Counselling facilities support students’ mental health. Research labs help with projects and R&D. Security is good with CCTV and guards 24x7. Power backup ensures no class interruptions. Workshops are available for hands-on technical training."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Facilities",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "uniform",
+    "text": [
+       "college dress code",
+    "college dresscode",
+    "what is the uniform",
+    "can we wear casuals",
+    "Does college have an uniform",
+    "Is there any uniform",
+    "uniform",
+    "what about uniform",
+    "do we have to wear uniform",
+    "college uniform rules",
+    "what is the dress code in college",
+    "is uniform mandatory",
+    "can i wear jeans and t-shirt",
+    "what colors are allowed in uniform",
+    "when do we wear uniform",
+    "are there special uniforms for events",
+    "uniform policy in college",
+    "how strict is the dress code",
+    "what shoes to wear with uniform",
+    "can girls wear casuals",
+    "can boys skip uniform",
+    "uniform timings",
+    "who decides college uniform",
+    "are uniforms provided by college",
+    "can we customize uniform",
+    "is there a summer and winter uniform",
+    "where can i buy the college uniform",
+    "does uniform include shoes",
+    "how often should uniform be worn",
+    "are there penalties for not wearing uniform",
+    "is there a uniform for sports",
+    "is the uniform comfortable",
+    "does uniform have college logo",
+    "what fabric is used for uniform"
+    ],
+    "responses": [
+       "At MBITS, the formal uniform dress code is followed from Monday to Friday. Students are expected to wear formal clothes during these days. On Wednesdays, students should wear a specific color dress, usually white or light colors, to promote uniformity. Saturdays have a different dress color, such as blue or any other assigned color, making it easy to identify the day. Girls are expected to dress neatly and formally, maintaining a professional and respectful appearance in the campus. Casual clothes are not allowed during academic hours. The dress code helps maintain discipline and professionalism."
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "UniformCollegeDressCode",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "union",
+    "text": [
+       "Is the college union active now?",
+    "Union active or not?",
+    "Is union working now?",
+    "Tell me if union is alive",
+    "Is student union there?",
+    "Is union happening now?",
+    "Union meetings happening?",
+    "Is union doing any work?",
+    "Union active this year?",
+    "Is union doing activities?",
+    "How about the college union?",
+    "Union members active or not?",
+    "Is union in college now?",
+    "Are union people active?",
+    "Union work going on?",
+    "Is there any union group?",
+    "Are union activities on?",
+    "Is union working for students?",
+    "Can I join the union now?",
+    "Is union alive or dead?"
+    ],
+    "responses": [
+       "The College Union at MBITS is the official student body representing all students. It acts as a link between students and the administration, addressing their concerns. The union organizes many events such as Dance Fest, Arts Fest, Music Club performances, Tech Fest, Talent Hunt, workshops, and seminars. It also engages in social initiatives like community service projects, awareness campaigns, and environmental programs to support society. The union’s structure includes a President who leads all activities, a Vice President who assists the President, a Secretary who manages records, a Treasurer who handles funds, and Class Representatives for each class. Elections are held annually, allowing students to vote democratically for their leaders. For more information, you can contact via email at info@mbits.ac.in or call +91 9061063801. More details are available on the website: https://mbits.ac.in/about-us/college-union/"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Union",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "random",
+    "text": [
+       "I love you",
+    "Will you marry me",
+    "Do you love me",
+    "Are you there",
+    "How are you",
+    "Tell me a joke",
+    "What's your name",
+    "Can you help me",
+    "What is life",
+    "Do you like music",
+    "What's your favorite color",
+    "Are you a robot",
+    "Do you have feelings",
+    "What's the weather",
+    "How old are you"
+    ],
+    "responses": [
+       "I am not program for this, please ask appropriate query"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Inappropriate",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "swear",
+    "text": [
+       "fuck",
+    "bitch",
+    "shut up",
+    "hell",
+    "stupid",
+    "idiot",
+    "dumb ass",
+    "asshole",
+    "fucker",
+    "damn",
+    "crap",
+    "bollocks",
+    "jerk",
+    "moron",
+    "twat",
+    "prick",
+    "dick",
+    "slut",
+    "bastard",
+    "douche"
+    ],
+    "responses": [
+       "please use appropriate language",
+       "Maintaining decency would be appreciated"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "InappropriateSwearWords",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "sports",
+    "text": [
+       "tell me about sports in college",
+  "what sports can I play here",
+  "details about sports facilities",
+  "is there a sports ground",
+  "which sports teams are active",
+  "how to join sports activities",
+  "sports events schedule",
+  "information on sports coaching",
+  "do you have gym and fitness center",
+  "where are the sports fields",
+  "can I participate in sports tournaments",
+  "sports club details",
+  "what games are popular here",
+  "sports equipment available",
+  "who manages sports activities"
+    ],
+    "responses": [
+       "MBITS emphasizes sports and physical education as an essential part of student life. The institute provides excellent sports infrastructure and coaching through the Department of Physical Education.  Students get training and participate in many inter-college sports and games tournaments.  Available sports include Caroms, Chess, Kabaddi, Cricket, Football, Basketball, Badminton, Volleyball, Table Tennis, Karate, and Boxing.  MBITS holds an annual sports festival called JOGO BINITO, featuring various indoor and outdoor games. Recent events included cricket, volleyball, football tournaments, table tennis, badminton, and carrom competitions.  MBITS students have won awards in Karate, Chess, and other sports at district and state levels. The college actively encourages student participation in sports for overall development and teamwork.  For more details, contact info@mbits.ac.in or call +91 9061063801. Visit https://mbits.ac.in/campus-life/sports/ for full information about sports at MBITS."  
+       ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Sports",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "salutaion",
+    "text": [
+    "okk",
+    "okie",
+    "nice work",
+    "well done",
+    "good job",
+    "thanks for the help",
+    "Thank You",
+    "its ok",
+    "Thanks",
+    "Good work",
+    "k",
+    "ok",
+    "okay",
+    "thank you so much",
+    "great help",
+    "appreciate it",
+    "cheers",
+    "cool",
+    "you are awesome",
+    "you did well",
+    "you are helpful",
+    "many thanks",
+    "grateful",
+    "good support",
+    "awesome job",
+    "excellent",
+    "perfect",
+    "that helped a lot",
+    "very helpful",
+    "I’m satisfied",
+    "you’re the best",
+    "thank u",
+    "ty"
+  ],
+  "responses": [
+    "I am glad I helped you",
+    "Welcome, anything else I can assist you with?",
+    "Happy to help!",
+    "You're most welcome!",
+    "Glad I could be of service!",
+    "Let me know if you need anything else.",
+    "Always here to assist you!",
+    "Thank you for your kind words!",
+    "I appreciate your feedback!",
+    "Feel free to ask if you need more help.",
+    "You're welcome!",
+    "My pleasure!",
+    "Thank you!",
+    "Anytime you need help, I'm here."
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Salutation",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "task",
+    "text": [
+    "what can you do",
+    "what are the thing you can do",
+    "things you can do",
+    "what can u do for me",
+    "how u can help me",
+    "why i should use you",
+    "how do you work",
+    "can you help me with college info",
+    "are you useful",
+    "what help you provide",
+    "what is your function",
+    "can you assist me",
+    "what is your role",
+    "how do you assist students",
+    "tell me your capabilities",
+    "explain what you can do",
+    "what is your use",
+    "how can I use you",
+    "are you here to help",
+    "can you answer college questions"
+  ],
+  "responses": [
+    "I can answer to low-intermediate questions regarding college",
+    "You can ask me questions regarding college, and I will try to answer them",
+    "I provide information about MBITS like courses, facilities, scholarships, and more",
+    "I help you find details related to academics, admissions, events, and campus life",
+    "You can use me to get quick answers about the college",
+    "I can assist with college queries like departments, staff, labs, and scholarships",
+    "Feel free to ask about your college, and I’ll do my best to help",
+    "I support students by answering commonly asked college-related questions",
+    "You can ask about PG, UG courses, hostel, union, or events—I'm here to assist",
+    "My role is to help students get correct and simple college-related information"
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Task",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+  {
+    "intent": "ragging",
+    "text": [
+       "ragging",
+    "is ragging practice active in college",
+    "does college have any antiragging facility",
+    "is there any ragging cases",
+    "is ragging done here",
+    "ragging against",
+    "antiragging facility",
+    "ragging juniors",
+    "ragging history",
+    "ragging incidents",
+    "can seniors rag juniors",
+    "how does college prevent ragging",
+    "who to contact in case of ragging",
+    "what is the punishment for ragging",
+    "is campus safe from ragging",
+    "tell me about ragging policy",
+    "is ragging allowed",
+    "ragging rules in college",
+    "is antiragging committee available",
+    "how is ragging handled in mbits",
+    "steps taken against ragging",
+    "is ragging totally banned"
+    ],
+    "responses": [
+       "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+    ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Ragging",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ },
+ {
+    "intent": "task",
+    "text": [
+    "tell me a joke",
+  "who is the prime minister",
+  "what is the weather today",
+  "how to cook biryani",
+  "do aliens exist",
+  "sing a song",
+  "give me movie suggestions",
+  "random question",
+  "my phone is not working",
+  "tell me something funny",
+  "what is your name",
+  "how old are you",
+  "who created you",
+  "open google",
+  "show me memes",
+  "translate this to french",
+  "how to get rich",
+  "what's the capital of Japan",
+  "start a quiz",
+  "who is your best friend"
+  ],
+  "responses": [
+    "I'm sorry, I don't have enough information to answer that. For more details, please contact the college directly.",
+    "This question is beyond my knowledge. You can get accurate info from the college.",
+    "I'm not trained to respond to this query. Kindly contact MBITS for help.",
+    "Sorry, I cannot assist with this query. Please reach out to MBITS for the right information.",
+    "I don’t have an answer for that at the moment. You can contact MBITS for support."
+  ],
+    "extension":  {
+        "function": "",
+        "entities": false,
+        "responses": []
+    },
+    "context":  {
+        "in": "",
+        "out": "Task",
+        "clear": true
+    },
+    "entityType": "NA",
+    "entities": []
+ }
+ ]
+ }
